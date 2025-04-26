@@ -2727,8 +2727,641 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
           ],
           "explanation": "Cooling Management focuses on maintaining the temperature within cloud datacenters to ensure energy efficiency, as excessive heat can increase energy consumption and affect performance.",
           "correctAnswer": [2]
-        }
-      
+        },
+
+        
+          {
+            "question": "Which of the following ports is a registered port in network paradigm?",
+            "options": [
+              "20",
+              "1020",
+              "36255",
+              "58628"
+            ],
+            "explanation": "Ports with numbers 0–1023 are called system or well-known ports, ports with numbers 1024 – 49151 are called user or registered ports, and ports with numbers 49152 – 65535 are called dynamic, private or ephemeral ports. Here only the port with number 36255 is a registered port.",
+            "correctAnswer": [2]
+          },
+          {
+            "question": "Which device uses a logical addressing system?",
+            "options": [
+              "Hub",
+              "Router",
+              "Bridge",
+              "Switch"
+            ],
+            "explanation": "Router uses logical addressing system.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "Which of the following is FALSE?",
+            "options": [
+              "Kernel level threads cannot share the code segment.",
+              "User level threads are not scheduled by the kernel.",
+              "Context switching between user level threads is faster than context switching between kernel level threads.",
+              "When a user level thread is blocked, all other threads of its process are blocked."
+            ],
+            "explanation": "Kernel-level threads can share code segments. So, A is FALSE. User level threads are scheduled by the thread library and the kernel is not involved. So, B is TRUE. Context switching between user level threads is faster as they have no actual context-switch, nothing is saved while for kernel level threads, Registers, PC and SP must be saved and restored. So, C is TRUE. When a user level thread is blocked, all other threads of its process are blocked. So, D is TRUE.",
+            "correctAnswer": [0]
+          },
+          {
+            "question": "In classful addressing, the IP address 192.2.255.255 belongs to which class?",
+            "options": [
+              "Class A",
+              "Class B",
+              "Class C",
+              "Class D"
+            ],
+            "explanation": "In Class C, IP addresses range from 192.0.0.x to 223.255.255.x where x is a positive integer between 0 and 255.",
+            "correctAnswer": [2]
+          },
+          {
+            "question": "Consider a system with 2 level caches. The access times of Level 1 cache, Level 2 cache, and main memory are 2 ns, 25 ns, and 200 ns, respectively. The hit rates of Level 1 cache, Level 2 cache and main memory are 0.6, 0.8 and 1, respectively. What is the average access time of the system, ignoring the search time within the cache?",
+            "options": [
+              "20.5 ns",
+              "25.2 ns",
+              "24 ns",
+              "22.5 ns"
+            ],
+            "explanation": "Average access time = [H1*T1]+[(1-H1)*H2*T2]+[(1-H1)(1-H2)*Hm*Tm], where H1 = Hit rate of level 1 cache = 0.6, T1 = Access time for level 1 cache = 2 ns, H2 = Hit rate of level 2 cache = 0.8, T2 = Access time for level 2 cache = 25 ns, Hm = Hit rate of Main Memory = 1, Tm = Access time for Main Memory = 200 ns.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "Increasing the RAM of a computer typically improves performance because:",
+            "options": [
+              "Larger RAMs are faster",
+              "Fewer page faults occur",
+              "Fewer segmentation faults occur",
+              "Virtual memory increases"
+            ],
+            "explanation": "When RAM size is bigger, the page table would have more entries of pages, which increases the probability of a page being present in the page table, hence the number of page faults is lower.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "Match the following columns for the TCP/IP protocol stack: Protocol TCP/IP Layer 1. IP 2. UDP 3. SMTP 4. PPP A. Transport Layer B. Application Layer C. Data link Layer D. Network Layer",
+            "options": [
+              "1-D, 2-A, 3-B, 4-C",
+              "1-C, 2-A, 3-D, 4-B",
+              "1-B, 2-C, 3-A, 4-D",
+              "1-A, 2-C, 3-D, 4-B"
+            ],
+            "explanation": "IP is a network layer protocol, UDP is a transport layer protocol, SMTP is an application layer protocol and PPP is a data link layer protocol.",
+            "correctAnswer": [0]
+          },
+          {
+            "question": "Consider a system with byte-addressable memory, 32-bit logical addresses, 8 Kilobyte page size and page table entries of 4 Bytes each. The size of the page table in the system is:",
+            "options": [
+              "1 MB",
+              "512 KB",
+              "4 MB",
+              "2 MB"
+            ],
+            "explanation": "For byte-addressable memory, 1 word = 1 Byte. Logical address size = 2^32 Bytes. Page size = 8 KB = 2^13 Bytes. Page table entry size = 4 Bytes. Number of pages = 2^32/2^13 = 2^19. Page table size = Number of pages × Page table entry size = 2^19 × 4 = 2^21 Bytes = 2 MB.",
+            "correctAnswer": [3]
+          },
+          {
+            "question": "The transport layer protocols used for real time multimedia, file transfer, DNS and email, respectively are:",
+            "options": [
+              "TCP, UDP, UDP and TCP",
+              "UDP, TCP, TCP and UDP",
+              "TCP, UDP, TCP and UDP",
+              "UDP, TCP, UDP and TCP"
+            ],
+            "explanation": "1. For real-time multimedia applications the packets must be delivered faster. Small packet losses are not important. Hence UDP is used. 2. For file transfer applications, FTP is used which relies on TCP. 3. Domain Name Server (DNS) generally employs UDP as its underlying transport layer protocol. 4. E-mail employs SMTP which also uses TCP.",
+            "correctAnswer": [3]
+          },
+          {
+            "question": "In OSI network architecture, the routing is performed by:",
+            "options": [
+              "Network Layer",
+              "Transport Layer",
+              "Data Link Layer",
+              "Session Layer"
+            ],
+            "explanation": "In OSI network architecture, the routing is performed by the network layer.",
+            "correctAnswer": [0]
+          },
+          {
+            "question": "A distributed system is preferred when the task is: i)Data-intensive; ii)Computing-intensive",
+            "options": [
+              "Only (i)",
+              "Only (ii)",
+              "Both (i) and (ii)",
+              "Neither (i) nor (ii)"
+            ],
+            "explanation": "A distributed system is preferred when the task is both data and computing-intensive.",
+            "correctAnswer": [2]
+          },
+          {
+            "question": "The \"Grid\" in the distributed grid computing paradigm links together power plants of different kinds.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "explanation": "The grid in distributed grid computing paradigm links together computing resources and provides the mechanism needed to access them.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "Which one of the following is/are the advantage(s) of cloud computing?",
+            "options": [
+              "Resource pooling",
+              "It requires an always-on internet connection.",
+              "Ubiquitous",
+              "On-demand payment policy"
+            ],
+            "explanation": "Cloud computing brings resource pooling, ensures ubiquitousness and provides an on-demand payment policy.",
+            "correctAnswer": [0, 2, 3]
+          },
+          {
+            "question": "The distributed system ensures 'robustness' of performance.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "explanation": "The distributed system ensures 'robustness' of performance. No Single point of failure.",
+            "correctAnswer": [0]
+          },
+          {
+            "question": "What is(are) the characteristic(s) of using cluster computing?",
+            "options": [
+              "Parallel programming",
+              "Faster network than a typical LAN",
+              "Low-latency communication protocols",
+              "None of these"
+            ],
+            "explanation": "Clusters are deployed to improve the speed over LAN-connected single standalone computers. Its key components are parallel programming and ensuring Low-latency communication protocols.",
+            "correctAnswer": [0, 1, 2]
+          },
+          {
+            "question": "Web access to commercial software is one of the SaaS (Software as a Service) characteristics in the cloud computing paradigm.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "explanation": "Web access to commercial software is one of the SaaS characteristics in the cloud computing paradigm.",
+            "correctAnswer": [0]
+          },
+          {
+            "question": "Example(s) of PaaS (Platform as a Service) tool(s) is(are):",
+            "options": [
+              "Microsoft Powerpoint",
+              "Microsoft Azure",
+              "Google App Engine",
+              "Google mail service"
+            ],
+            "explanation": "Examples of PaaS tools are Microsoft Azure and Google app engine.",
+            "correctAnswer": [1, 2]
+          },
+          {
+            "question": "IaaS (Infrastructure as a Service) in cloud computing delivers (i) storage; (ii) servers.",
+            "options": [
+              "Only (i)",
+              "Only (ii)",
+              "Both (i) and (ii)",
+              "Neither (i) nor (ii)"
+            ],
+            "explanation": "IaaS is a computing platform that allows developers to quickly create software or online applications by delivering storage, servers, networks, OSs and on-demand service.",
+            "correctAnswer": [2]
+          },
+          {
+            "question": "IaaS (Infrastructure as a Service) is the best option where regulatory compliance makes the offshoring or outsourcing of data storage and processing difficult.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "explanation": "IaaS may not be the best option where regulatory compliance makes the offshoring or outsourcing of data storage and processing difficult.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "What is/are the main requirement(s) of a Cloud Service Provider (CSP)?",
+            "options": [
+              "Increase agility",
+              "Increase cost",
+              "Increase productivity",
+              "Decrease cost"
+            ],
+            "explanation": "CSP looks forward to enhancing productivity and agility.",
+            "correctAnswer": [0, 2]
+          },
+          {
+            "question": "Example(s) of Public cloud is(are)",
+            "options": [
+              "Eucalyptus",
+              "Ubuntu Enterprise Cloud (UEC)",
+              "Microsoft ECI data centre",
+              "Amazon EC2"
+            ],
+            "explanation": "Amazon EC2 is a Public cloud.",
+            "correctAnswer": [3]
+          },
+          {
+            "question": "Which of the following is/are XML parser API(s)?",
+            "options": [
+              "XaaS (Anything as a Model)",
+              "SAX (Simple API to XML)",
+              "CLI (Command Line Interface)",
+              "DOM (Document Object Model)"
+            ],
+            "explanation": "DOM and SAX are two of the three generic parser APIs. They read XML data, check for syntax, and make data available to an application.",
+            "correctAnswer": [1, 3]
+          },
+          {
+            "question": "The public cloud provides total visibility and control over data regarding security.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "explanation": "Public cloud provides limited visibility and control over data regarding security. Say, subscribers cannot verify that data has been completely detected from the provider's systems.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "In the case of on-site private cloud, organizations consider (i) network dependency; (ii) no risk from multi-tenancy.",
+            "options": [
+              "Only (i)",
+              "Only (ii)",
+              "Both (i) and (ii)",
+              "Neither (i) nor (ii)"
+            ],
+            "explanation": "The risk of multi-tenancy is there is an on-site private cloud as workloads of different clients may reside concurrently on the same systems and local networks, separated only by access policies implemented by a cloud provider's software. Network dependency is also considered.",
+            "correctAnswer": [0]
+          },
+          {
+            "question": "____________ is an XML language for processing XML.",
+            "options": [
+              "Javascript",
+              "ECMA script",
+              "CSS",
+              "XSLT"
+            ],
+            "explanation": "XSLT( eXtensible Stylesheet Language) is an XML language for processing XML.",
+            "correctAnswer": [3]
+          },
+          {
+            "question": "Cloud Manager is the public access point to the cloud where subscribers sign up for accounts.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "explanation": "Cloud Manager is the public access point to the cloud where subscribers sign up for accounts and has a mechanism for authenticating subscribers.",
+            "correctAnswer": [0]
+          },
+          {
+            "question": "___________ generally stores the cloud subscriber's metadata like user credentials and OS images.",
+            "options": [
+              "SLA (Service Level Agreement)",
+              "Cloud Manager",
+              "DOS (Data Object storage)",
+              "MOS (Metadata Object storage)"
+            ],
+            "explanation": "DOS generally stores the cloud subscriber's metadata like user credentials and OS images.",
+            "correctAnswer": [2]
+          },
+          {
+            "question": "Which of these is responsible for the operation of a collection of computers that are connected via high speed local area networks in the cloud computing paradigm?",
+            "options": [
+              "Cloud Manager",
+              "Computer Manager",
+              "Cluster Manager",
+              "None of these"
+            ],
+            "explanation": "The cluster Manager is responsible for the operation of a collection of computers that are connected via high-speed local area networks in the cloud computing paradigm.",
+            "correctAnswer": [2]
+          },
+          {
+            "question": "Hypervisor is also known as",
+            "options": [
+              "Cluster Manager",
+              "Virtual Machine Handler",
+              "Virtual Machine Manager",
+              "Virtual Machine Monitor"
+            ],
+            "explanation": "The hypervisor is also known as Virtual Machine Monitor.",
+            "correctAnswer": [3]
+          },
+          {
+            "question": "The following problems are addressed through Web services:",
+            "options": [
+              "Firewall",
+              "Interoperability",
+              "Storage",
+              "Speed"
+            ],
+            "explanation": "Web services improve distributed interoperability by using open standards that can enable any two software components to communicate. It is also intended to take care of firewall issues.",
+            "correctAnswer": [0, 1]
+          },
+          {
+            "question": "Which of the following is/are properties of Web Service SLAs?",
+            "options": [
+              "SLA automation is required for negotiation, provisioning, service delivery and monitoring.",
+              "The QoS parameters are response time, SLA violation rate for reliability, availability and cost of service.",
+              "UDDI (Universal Description Discovery and Integration) is used for resource allocation.",
+              "The QoS parameters are related to security, privacy, trust, management, etc."
+            ],
+            "explanation": "In Web SLA automation is not required. The QoS parameters are response time, SLA violation rate for reliability, availability and cost of service and UDDI (Universal Description Discovery and Integration) is used for resource allocation.",
+            "correctAnswer": [1, 2]
+          },
+          {
+            "question": "A task takes time T in a uniprocessor system. In a parallel implementation, the task runs on P processors parallelly. The parallel efficiency is Eff, where 0<Eff<1. What is the time taken by each processor (M) in this implementation?",
+            "options": [
+              "M = T",
+              "M = T/(Eff * P)",
+              "M = T/P",
+              "M = (T * Eff)/P"
+            ],
+            "explanation": "According to the question, parallel efficiency (Eff) is less than 1. Therefore, the time taken by each processor will be greater than the ideal T/P, and M = T/(Eff * P).",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "Row-oriented storage is optimal for transaction processing applications.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "explanation": "From the definition of data storage techniques.",
+            "correctAnswer": [0]
+          },
+          {
+            "question": "Which of the following is/are the SLA requirement(s) for PaaS cloud delivery model?",
+            "options": [
+              "Transparency",
+              "Data Retention and Deletion",
+              "Privacy",
+              "Regulatory compliance"
+            ],
+            "explanation": "Transparency, Privacy, and Regulatory compliance are the SLA requirements for PaaS cloud delivery model.",
+            "correctAnswer": [0, 2, 3]
+          },
+          {
+            "question": "In a cloud, total service uptime is 175 minutes and availability of the service is 0.85. What is the service downtime?",
+            "options": [
+              "55 minutes",
+              "148.75 minutes",
+              "26.25 minutes",
+              "45 minutes"
+            ],
+            "explanation": "Availability = 1 – (downtime/uptime). Downtime = Uptime * (1-Availability) = 175*(1-0.85) = 26.25 minutes.",
+            "correctAnswer": [2]
+          },
+          {
+            "question": "Which of the following database system/architecture follow(s) Quorum protocol for a large number of concurrent reads & writes?",
+            "options": [
+              "BigTable",
+              "Dynamo",
+              "Datastore",
+              "Google File System (GFS)"
+            ],
+            "explanation": "Dynamo follows Quorum protocol for a large number of concurrent reads & writes.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "Match the components of OpenStack with their functions. Table I: 1. Neutron 2. Cinder 3. Keystone 4. Nova Table II: A. Block storage B. Identity C. Compute D. Networking",
+            "options": [
+              "1->B, 2->D, 3->A, 4->C",
+              "1->B, 2->A, 3->D, 4->C",
+              "1->C, 2->B, 3->D, 4->A",
+              "1->D, 2->A, 3->B, 4->C"
+            ],
+            "explanation": "Neutron is used for networking, Cinder is used for block storage, Keystone is used for identity and Nova is used for compute service.",
+            "correctAnswer": [3]
+          },
+          {
+            "question": "Let D(t) and R(t) be the instantaneous demand and resources at time t respectively. If demand is exponential (D(t)=e^t), any fixed provisioning interval (tp) according to the current demands will fall linearly behind.",
+            "options": [
+              "TRUE",
+              "FALSE"
+            ],
+            "explanation": "If demand is exponential (D(t)=e^t), any fixed provisioning interval (tp) according to the current demands will fall exponentially behind.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "Which of the following statement(s) regarding OpenStack storage is/are wrong?",
+            "options": [
+              "Object storage is managed by Cinder",
+              "Both ephemeral storage and block storage are accessible from within VM",
+              "Block storage persists until VM is terminated",
+              "Ephemeral storage is used to run operating system and/or scratch space"
+            ],
+            "explanation": "Object storage is managed by Swift. Block storage persists until specifically deleted by the user. Thus, statements A and C are false.",
+            "correctAnswer": [0, 2]
+          },
+          {
+            "question": "Statement 1: Multiple KPIs are aggregated to SLA. Statement 2: SLA contains SLO.",
+            "options": [
+              "Both statement 1 and 2 are correct",
+              "Statement 1 is correct and statement 2 is incorrect",
+              "Statement 2 is correct and statement 1 is incorrect",
+              "Both statement 1 and 2 are incorrect"
+            ],
+            "explanation": "Multiple KPIs are aggregated to SLO. SLA contains SLO. So statement 1 is incorrect and statement 2 is correct.",
+            "correctAnswer": [2]
+          },
+          {
+            "question": "Azure app service plans define:",
+            "options": [
+              "Instance size",
+              "Security",
+              "Region",
+              "Scale count"
+            ],
+            "explanation": "Azure app service plan defines instance size, region, scale count and SKU (Stock-Keeping Unit). So the correct answers are A, C and D.",
+            "correctAnswer": [0, 2, 3]
+          },
+          {
+            "question": "In Azure, app service supports local Git to deploy content to a web app.",
+            "options": [
+              "TRUE",
+              "FALSE"
+            ],
+            "explanation": "The statement is true. In Azure, app service supports local Git to deploy content to a web app.",
+            "correctAnswer": [0]
+          },
+          {
+            "question": "Which of the following statement(s) is/are FALSE for Microsoft Azure Resource Group?",
+            "options": [
+              "It is a logical container",
+              "It manages Azure resources",
+              "It is a physical container",
+              "It deploys web apps, databases, and storage accounts"
+            ],
+            "explanation": "A resource group is a logical container into which Azure resources like web apps, databases, and storage accounts are deployed and managed. Hence, C is the only incorrect answer.",
+            "correctAnswer": [2]
+          },
+          {
+            "question": "Identify the correct statement(s) on Google App Engine.",
+            "options": [
+              "It is a part of Google Cloud Platform (GCP) \"services\" infrastructure",
+              "It is a Platform as a Service (PaaS) component of GCP",
+              "While using Google App Engine patching and maintenance would be checked continuously",
+              "It is a part of Google Cloud Platform (GCP) \"compute\" infrastructure"
+            ],
+            "explanation": "Google App Service is a part of GCP compute infrastructure. It is a Platform as a Service (PaaS) component of GCP. Using App Engine, we can just focus on our code and do not need to worry about patching or maintenance. So the correct options are B and D.",
+            "correctAnswer": [1, 3]
+          },
+          {
+            "question": "Google Cloud Datastore provides flexible object storage with global edge caching.",
+            "options": [
+              "TRUE",
+              "FALSE"
+            ],
+            "explanation": "Google Cloud Storage, not Datastore provides flexible object storage with global edge caching. So the statement is false.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "Statement 1: In Microsoft Azure, a deployment user is required for FTP and local Git deployment to a web app. Statement 2: When deploying the Azure app remotely, the login password of the Azure account needs to be entered when the system asks for password.",
+            "options": [
+              "Statement 1 is True and Statement 2 is False",
+              "Statement 1 is False and Statement 2 is True",
+              "Both are True",
+              "Both are False"
+            ],
+            "explanation": "A deployment user is required for FTP and local Git deployment to a web app in Microsoft Azure. When deploying the Azure app remotely, the password created while configuring the deployment user should be used, not the password used to log in to the Azure portal. So the correct option is A.",
+            "correctAnswer": [0]
+          },
+          {
+            "question": "Match the following columns: Column I: A. GoogleAppEngine B. GoogleCloudEndpoints C. GoogleAPI Column II: 1. Integrates Google's services into end users' application 2. Helps end users' application scalability 3. Helps to migrate web application to Google Cloud Platform",
+            "options": [
+              "A-1, B-2, C-3",
+              "A-3, B-2, C-1",
+              "A-3, B-1, C-2",
+              "A-2, B-1, C-3"
+            ],
+            "explanation": "GoogleAppEngine helps to migrate web applications to Google Cloud Platform. GoogleCloudEndpoints help end users' application scalability. GoogleAPIs integrate Google's services into end users' applications. So, the correct option is B.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "While developing a web-app using Google App Engine, the development server should not be kept running when changes are made to the source file.",
+            "options": [
+              "TRUE",
+              "FALSE"
+            ],
+            "explanation": "The development server can be kept running while the application is being developed in Google App Engine. The development server watches for changes in the source files and reloads them if necessary. Hence, the statement is false.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "Identify the correct statement(s) on OpenStack storage concepts:",
+            "options": [
+              "Ephemeral storage is managed by Nova",
+              "Block storage is accessible from within VM as a local file system",
+              "Both Block storage and Object storage persist until specifically deleted by the user.",
+              "Object storage is used to add additional persistent storage to VM and/or run operating system."
+            ],
+            "explanation": "Ephemeral storage is managed by Nova. Block storage is accessible from within VM as a block device (e.g. /dev/vdc). Both Block storage and Object storage persist until specifically deleted by the user. Object storage is used to add store files, including VM images. Hence A and C are correct.",
+            "correctAnswer": [0, 2]
+          },
+          {
+            "question": "Which of the following is/are storage service(s) provided by Google Cloud Platform(GCP)?",
+            "options": [
+              "BigQuery",
+              "Cloud SQL",
+              "Cloud Datastore",
+              "Cloud Endpoints"
+            ],
+            "explanation": "Cloud SQL and Cloud Datastore are the storage services mentioned here provided by GCP. Hence, B and C are correct.",
+            "correctAnswer": [1, 2]
+          },
+          {
+            "question": "____ is a formal contract between a Service Provider (SP) and a Service Consumer (SC).",
+            "options": [
+              "SLA",
+              "KPI",
+              "SLO",
+              "Utility Premium"
+            ],
+            "explanation": "SLA (Service Level Agreement) is a formal contract between a Service Provider (SP) and a Service Consumer (SC).",
+            "correctAnswer": [0]
+          },
+          {
+            "question": "If demand is exponential (D(t)=e^t), any fixed provisioning interval (tp) according to the current demands will fall linearly behind.",
+            "options": [
+              "TRUE",
+              "FALSE"
+            ],
+            "explanation": "If demand is exponential (D(t)=e^t), any fixed provisioning interval (tp) according to the current demands will fall exponentially behind.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "A third party application runs in the cloud for 18 hours/day. At the end of one month (30 days), it was found that the cloud suffered outages totalling 5 hours and T hours, on different days over the service period. The cloud guarantees service availability for 98% of the time. What are the value(s) of T among the given options such that the SLA negotiation does not get honored in terms of service availability?",
+            "options": [
+              "4 hours",
+              "5 hours",
+              "6 hours",
+              "8 hours"
+            ],
+            "explanation": "Total Outage: (5+T) hours, application runs for 540 hours in a month. Availability = 1 - (downtime/uptime). For availability: [1- {(5+T)/(535-T)}] >= 0.98, T<=5.59 hours. Options C and D are correct as the SLA negotiation does not get honored.",
+            "correctAnswer": [2, 3]
+          },
+          {
+            "question": "What is/are the correct statement(s) regarding VM load management?",
+            "options": [
+              "When load increases, new VMs should be scheduled to new nodes.",
+              "When load decreases, use WOL to start up waiting nodes.",
+              "When load increases, use WOL to start up waiting nodes.",
+              "When load decreases, live migrate VMs to more utilized nodes."
+            ],
+            "explanation": "When load decreases, VMs should be live migrated to more utilized nodes. When load increases, WOL should be used to start up waiting nodes and new VMs should be scheduled to new nodes.",
+            "correctAnswer": [0, 2, 3]
+          },
+          {
+            "question": "Statement I: In resource management, resource allocation is the allocation of a service provider's resources to a customer. Statement II: Resource mapping is correspondence between resources required by the users and resources available with the provider. Which of the options is correct?",
+            "options": [
+              "Statement I is TRUE and Statement II is FALSE",
+              "Statement II is TRUE and Statement I is FALSE",
+              "Both statements are TRUE",
+              "Both statements are FALSE"
+            ],
+            "explanation": "In resource management, resource allocation is the distribution of resources economically among competing groups of people or programs. Statement II is true.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "Which of the following is/are resource allocation approaches in resource management?",
+            "options": [
+              "Intelligent multi-agent model",
+              "Network queueing model",
+              "Energy-aware resource allocation",
+              "Reinforcement learning guided control policy"
+            ],
+            "explanation": "Intelligent multi-agent model and energy-aware resource allocation are resource allocation approaches. Network queueing model is a resource provisioning approach and reinforcement learning guided control policy is a resource adaptation approach.",
+            "correctAnswer": [0, 2]
+          },
+          {
+            "question": "Consider that the peak computing demand for an organization is 250 units. The demand as a function of time can be expressed as D(t) = 5t. Baseline (owned) unit cost is 120 and cloud unit cost is 150. The cloud is owned for a period of T time units. Select the values of T for which cloud is cheaper than owning.",
+            "options": [
+              "50",
+              "100",
+              "150",
+              "200"
+            ],
+            "explanation": "Total baseline cost B_T = P * B * T = 250*120*T = 30,000*T units. Total cloud cost C_T = = 750*T^2/2 = 375*(T^2) units. Utility function U_T = (C_T/B_T) = 375*T^2/30,000*T = T/80. For T = 50 units, cloud is cheaper than owning. For all the other cases, cloud is costlier than owning.",
+            "correctAnswer": [0]
+          },
+          {
+            "question": "Which of the following is/are objective(s) of Resource Management?",
+            "options": [
+              "Increased latency",
+              "Scalability",
+              "Improved throughput",
+              "Improved security"
+            ],
+            "explanation": "Scalability and improved throughput are objectives of Resource Management.",
+            "correctAnswer": [1, 2]
+          },
+          {
+            "question": "In computing, there is a nonlinear relationship between the number of processing cores used and power consumption",
+            "options": [
+              "TRUE",
+              "FALSE"
+            ],
+            "explanation": "There is a nonlinear relationship between the number of processing cores used and power consumption.",
+            "correctAnswer": [0]
+          },
+          {
+            "question": "If demand is flat, the penalty will be linear.",
+            "options": [
+              "TRUE",
+              "FALSE"
+            ],
+            "explanation": "If demand is flat, the penalty will be zero.",
+            "correctAnswer": [1]
+          }
     ],
   };
 
