@@ -4108,7 +4108,656 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
       ],
       "explanation": "According to the given objectives, the health model is designed for fog-edge computing and aims to reduce latency, network usage and cost incurred in the cloud.",
       "correctAnswer": [2]
-    }
+    },
+    
+      {
+        "question": "Utility computing encapsulates the following characteristic(s)",
+        "options": [
+          "Mobility amalgamation",
+          "No impact on resource utilization",
+          "Pay-per-use pricing business model",
+          "None of above"
+        ],
+        "explanation": "Utility computing is a pay-per-use pricing business model.",
+        "correctAnswer": [2]
+      },
+      {
+        "question": "In the context of the client-server architecture: Statement (i) posits that virtualization is a fundamental principle; Statement (ii) claims that the system has limited scalability.",
+        "options": [
+          "Only Statement (i) is correct",
+          "Only Statement (ii) is correct",
+          "Both Statements (i) and (ii) are correct",
+          "None of the statements is correct"
+        ],
+        "explanation": "In the case of the client-server model: there is no concept of virtualization; the system can scale up to a certain extent.",
+        "correctAnswer": [1]
+      },
+      {
+        "question": "A cluster is a type of ________ or distributed computing platform consisting of a collection of interconnected stand-alone computing computers working together in a _________computing resource.",
+        "options": [
+          "computers, parallel",
+          "single integrated, parallel",
+          "node, parallel",
+          "parallel, single integrated"
+        ],
+        "explanation": "A cluster is a type of parallel or distributed computing platform consisting of a collection of interconnected stand-alone computing computers working together in a single integrated computing resource.",
+        "correctAnswer": [3]
+      },
+      {
+        "question": "Dropbox is an example of:",
+        "options": [
+          "Software as a Service or SaaS",
+          "Platform as a Service or PaaS",
+          "Function as a Service or FaaS",
+          "Infrastructure as a Service or IaaS"
+        ],
+        "explanation": "Dropbox is categorized as Software as a Service (SaaS) due to the nature of the services it offers and how it delivers these services to its users.",
+        "correctAnswer": [0]
+      },
+      {
+        "question": "For less data-intensive applications, horizontal scale-out elasticity is the ideal solution.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Horizontal scale-out means adding additional computation units and having them act in concert. It is suitable for large scale-out scenarios.",
+        "correctAnswer": [1]
+      },
+      {
+        "question": "The combination of Service-Oriented Infrastructure and Cloud Computing leads to ________.",
+        "options": [
+          "PaaS",
+          "FaaS",
+          "Serverless",
+          "XaaS"
+        ],
+        "explanation": "\"Anything as a Service\" is what XaaS stands for. It's a catch-all term for cloud-based services.",
+        "correctAnswer": [3]
+      },
+      {
+        "question": "Utility computing is a service-provisioning model, in which a service provider makes computing resources and infrastructure management available to the customer.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Utility computing is a service-provisioning model, in which a service provider makes computing resources and infrastructure management available to the customer.",
+        "correctAnswer": [0]
+      },
+      {
+        "question": "Which of the following is false?",
+        "options": [
+          "Private cloud is dedicated solely to an organization.",
+          "Community cloud is a composition of public and private cloud.",
+          "Public cloud is available to the general public.",
+          "None of these"
+        ],
+        "explanation": "Community cloud is shared by several organizations and serves a specific goal.",
+        "correctAnswer": [1]
+      },
+      {
+        "question": "Which of the following is one of the characteristics of PaaS?",
+        "options": [
+          "Provides tools to deploy user applications",
+          "Application is provided by the cloud provider",
+          "Resources are distributed as a service",
+          "None of these"
+        ],
+        "explanation": "PaaS provides tools to deploy user applications.",
+        "correctAnswer": [0]
+      },
+      {
+        "question": "Which of the following is/are a type of Grid?",
+        "options": [
+          "Computational Grid",
+          "Data Grid",
+          "Edge Grid",
+          "All of the above"
+        ],
+        "explanation": "Types of grid are data grid, computational grid and collaboration grid.",
+        "correctAnswer": [0, 1]
+      },
+
+      
+        {
+          "question": "___________ generally stores the cloud subscriber's metadata like user credentials and OS images.",
+          "options": [
+            "SLA (Service Level Agreement)",
+            "Cloud Manager",
+            "DOS (Data Object storage)",
+            "MOS (Metadata Object storage)"
+          ],
+          "explanation": "DOS generally stores the cloud subscriber's metadata like user credentials and OS images.",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "Universal Description, Discovery, and Integration (UDDI) represents a format for data exchange, designed to hold and convey data objects that are made up of pairs of attributes and values.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "explanation": "Universal Description, Discovery, and Integration (UDDI) is an XML based registry for business internet services. JavaScript Object Notation (JSON) is a data interchange format to store and transmit data objects consisting of attribute-value pairs.",
+          "correctAnswer": [0]
+        },
+        {
+          "question": "Which factors should an organization consider while planning to deploy an outsourced private cloud?",
+          "options": [
+            "Only Network Dependency",
+            "Only Risks from multi-tenancy",
+            "Both Network Dependency and Risks from multi-tenancy",
+            "Neither Network Dependency nor Risks from multi-tenancy"
+          ],
+          "explanation": "For outsourced private cloud, subscribers may have an option to provide a unique, protected, and reliable network. Additionally, there is always a risk of multi-tenancy.",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "What is/are the main difference(s) between virtualization and dual boot?",
+          "options": [
+            "In virtualization, both operating systems run simultaneously, but not in dual boot.",
+            "In virtualization, operating systems are not isolated from each other, but not in dual boot.",
+            "In a dual boot, both operating systems run simultaneously, but not in virtualization.",
+            "No difference between dual boot and virtualization."
+          ],
+          "explanation": "Virtualization is a method of running multiple operating systems and user applications on the same hardware. Both OSs run simultaneously and are completely isolated from each other.",
+          "correctAnswer": [0]
+        },
+        {
+          "question": "Web services enhance distributed interoperability through the use of open standards, enabling any two software components to communicate and are designed to address firewall issues.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "explanation": "Web services indeed improve distributed interoperability by utilizing open standards, which allows different software components to communicate effectively. Additionally, they are designed to navigate and resolve firewall issues, making them suitable for use across various network configurations.",
+          "correctAnswer": [0]
+        },
+        {
+          "question": "Ubuntu Enterprise Cloud (UEC) is an example of",
+          "options": [
+            "Public cloud",
+            "Hybrid cloud",
+            "Private cloud",
+            "Community Cloud"
+          ],
+          "explanation": "Ubuntu Enterprise Cloud (UEC) is an example of a private cloud.",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "Cloud Manager is the public access point to the cloud where subscribers ______ up for accounts and has a mechanism for ______ subscribers.",
+          "options": [
+            "sign, integrating",
+            "sign, authenticating",
+            "sign, accessing",
+            "access, authenticating"
+          ],
+          "explanation": "Cloud Manager is the public access point to the cloud where subscribers sign up for accounts and has a mechanism for authenticating subscribers.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "Hypervisor is also known as",
+          "options": [
+            "Cluster Manager",
+            "Virtual Machine Handler",
+            "Virtual Machine Manager",
+            "Virtual Machine Monitor"
+          ],
+          "explanation": "The hypervisor is also known as Virtual Machine Monitor.",
+          "correctAnswer": [3]
+        },
+        {
+          "question": "Simple Object Access Protocol (SOAP) provides a way to communicate between applications running on different operating systems, with the same technologies and programming languages.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "explanation": "Simple Object Access Protocol (SOAP) provides a way to communicate between applications running on different operating systems, with different technologies and programming languages.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "While DOM operates on the documents as a whole, _____ parsers operate on each piece of the XML document sequentially.",
+          "options": [
+            "FTP",
+            "MQTT",
+            "SAX",
+            "XAS"
+          ],
+          "explanation": "DOM operates on the documents as whole, SAX parsers operate on each piece of the XML document sequentially.",
+          "correctAnswer": [2]
+        }
+      ,
+      
+        {
+          "question": "Which of the following system/ architecture follow(s) Quorum protocol for a large number of concurrent reads & writes?",
+          "options": [
+            "Google File System (GFS)",
+            "BigTable",
+            "Dynamo",
+            "None of the above"
+          ],
+          "explanation": "Dynamo follows Quorum protocol for a large number of concurrent reads & writes.",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "Statement 1: In ephemeral storage, the stored objects persist until the VM is terminated. Statement 2: The ephemeral storage is managed by Cinder in OpenStack.",
+          "options": [
+            "Statement 1 is TRUE, Statement 2 is FALSE",
+            "Statement 2 is TRUE, Statement 1 is FALSE",
+            "Both statements are TRUE",
+            "Both statements are FALSE"
+          ],
+          "explanation": "Ephemeral storage is managed by NOVA in OpenStack.",
+          "correctAnswer": [0]
+        },
+        {
+          "question": "Column-oriented storage is efficient for data-warehouse workloads.",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "explanation": "From the definition of data storage techniques. (Slide no. 6 of Cloud Computing: Managing Data)",
+          "correctAnswer": [0]
+        },
+        {
+          "question": "Horizon is a __________ self-service portal to interact with underlying OpenStack services",
+          "options": [
+            "mobile based",
+            "OS based",
+            "web based",
+            "None of the above"
+          ],
+          "explanation": "Horizon provides a web-based self-service portal to interact with underlying OpenStack services, such as launching an instance, assigning IP addresses and configuring access controls.",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "What is the parallel efficiency (Eff) of an algorithm, when a task takes time T in uniprocessor system, P is number of processors, M is time taken by each processor?",
+          "options": [
+            "Eff = (T*P)/M",
+            "Eff = T*(M/P)",
+            "Eff = T*P*M",
+            "Eff = T/(P*M)"
+          ],
+          "explanation": "Eff = T/(P*M) is the parallel efficiency(Eff) of an algorithm.",
+          "correctAnswer": [3]
+        },
+        {
+          "question": "In cloud, service downtime is 30 minutes and availability of the service is 0.80. What is the service uptime?",
+          "options": [
+            "120 minutes",
+            "60 minutes",
+            "150 minutes",
+            "135 minutes"
+          ],
+          "explanation": "Availability = 1 – (downtime/uptime). Uptime = Downtime/(1-Availability) = 30/(1-0.8) = 150 minutes",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "Which of the following is/are NOT SLA requirement(s) of PaaS cloud delivery model?",
+          "options": [
+            "Data Retention and Deletion",
+            "Privacy",
+            "Machine-Readable SLAs",
+            "Certification"
+          ],
+          "explanation": "Data Retention and Deletion and Machine-Readable SLAs are not SLA requirements with respect to Paas cloud delivery model.",
+          "correctAnswer": [0, 2]
+        },
+        {
+          "question": "What does the 'availability' metric represent in the monitoring and auditing of SLAs?",
+          "options": [
+            "The speed at which a service responds",
+            "How often the service is available",
+            "The ability for a resource to grow infinitely",
+            "The percentage of uptime for a service"
+          ],
+          "explanation": "availability is represented as a percentage of uptime for a service in a given observation period.",
+          "correctAnswer": [3]
+        },
+        {
+          "question": "What architecture is used in a parallel database for the efficient execution of SQL queries?",
+          "options": [
+            "Shared memory architecture",
+            "Shared disk architecture",
+            "Shared nothing architecture",
+            "Shared cache architecture"
+          ],
+          "explanation": "For shared-nothing architecture in the parallel database, tables are partitioned and distributed across multiple processing nodes and SQL optimizer handles distributed joins.",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "_______ is used for networking services in OpenStack.",
+          "options": [
+            "Keystone",
+            "Neutron",
+            "Cinder",
+            "Swift"
+          ],
+          "explanation": "Neutron is used for networking services in OpenStack.",
+          "correctAnswer": [1]
+        },
+        
+          {
+            "question": "Which of the following statement(s) is/are FALSE for Microsoft Azure Resource Group?",
+            "options": [
+              "It is a logical container",
+              "It manages Azure resources",
+              "It deploys web apps, databases, and storage accounts",
+              "It is a physical container"
+            ],
+            "explanation": "A resource group is a logical container into which Azure resources like web apps, databases, and storage accounts are deployed and managed. Hence, D is the only incorrect option.",
+            "correctAnswer": [3]
+          },
+          {
+            "question": "Statement 1: Azure supports public cloud platforms. Statement 2: Azure App Service plan defines security.",
+            "options": [
+              "Statement 1 is TRUE, Statement 2 is FALSE",
+              "Statement 2 is TRUE, Statement 1 is FALSE",
+              "Both statements are TRUE",
+              "Both statements are FALSE"
+            ],
+            "explanation": "Microsoft Azure is Microsoft's public cloud computing platform. Azure App Service Plan is the container for hosting Web Apps, API Apps, Mobile Apps and Function Apps.",
+            "correctAnswer": [0]
+          },
+          {
+            "question": "Google Cloud Datastore provides flexible object storage with global edge caching.",
+            "options": [
+              "TRUE",
+              "FALSE"
+            ],
+            "explanation": "Google Cloud Storage, not Datastore provides flexible object storage with global edge caching. So the statement is false.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "Google APIs help to:",
+            "options": [
+              "scale up the app according to the demand/ service requests.",
+              "integrate Google's services into the application.",
+              "migrate the web app to Google Cloud Platform.",
+              "None of the above"
+            ],
+            "explanation": "Google APIs help to integrate Google's services into the application.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "Which of the following is/are storage service(s) provided by Google Cloud Platform(GCP)?",
+            "options": [
+              "Cloud SQL",
+              "BigQuery",
+              "Cloud Datastore",
+              "Cloud Endpoints"
+            ],
+            "explanation": "Cloud SQL and Cloud Datastore are the storage services mentioned here provided by GCP. Hence, A and C are correct.",
+            "correctAnswer": [0, 2]
+          },
+          {
+            "question": "Match the following columns: Column I (A. GoogleAppEngine, B. GoogleCloudEndpoints, C. GoogleAPI) with Column II (1. Integrates Google's services into end users' application, 2. Helps end users' application scalability, 3. Helps to migrate web application to Google Cloud Platform)",
+            "options": [
+              "A-3, B-2, C-1",
+              "A-1, B-2, C-3",
+              "A-3, B-1, C-2",
+              "A-2, B-1, C-3"
+            ],
+            "explanation": "GoogleAppEngine helps to migrate web applications to Google Cloud Platform. GoogleCloudEndpoints help end users' application scalability. GoogleAPIs integrate Google's services into end users' applications. So, the correct option is A.",
+            "correctAnswer": [0]
+          },
+          {
+            "question": "In OpenStack, when a VM is terminated, which of the following memory resources are freed?",
+            "options": [
+              "Ephemeral storage",
+              "Block Storage",
+              "Persistent Storage",
+              "RAM"
+            ],
+            "explanation": "In OpenStack, ephemeral storage and RAM are freed when a VM is terminated.",
+            "correctAnswer": [0, 3]
+          },
+          {
+            "question": "Statement 1: When deploying the Azure app remotely, the login password of the Azure account needs to be entered when the system asks for password. Statement 2: In Microsoft Azure, a deployment user is required for FTP and local Git deployment to a web app.",
+            "options": [
+              "Statement 1 is True and Statement 2 is False",
+              "Statement 1 is False and Statement 2 is True",
+              "Both are True",
+              "Both are False"
+            ],
+            "explanation": "A deployment user is required for FTP and local Git deployment to a web app in Microsoft Azure. When deploying the Azure app remotely, the password created while configuring the deployment user should be used, not the password used to log in to the Azure portal. So the correct option is B.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "The Azure App pan has a scale count of _____ instances.",
+            "options": [
+              "1 to 10",
+              "1 to 100",
+              "1 to 50",
+              "1 to 20"
+            ],
+            "explanation": "The Azure App pan has a scale count of 1 to 20 instances.",
+            "correctAnswer": [3]
+          },
+          {
+            "question": "While developing a web-app using Google App Engine, the development server should not be kept running when changes are made to the source file.",
+            "options": [
+              "TRUE",
+              "FALSE"
+            ],
+            "explanation": "The development server can be kept running while the application is being developed in Google App Engine. The development server watches for changes in the source files and reloads them if necessary. Hence, the statement is false.",
+            "correctAnswer": [1]
+          }
+        ,
+        
+          {
+            "question": "____ is a formal contract between a Service Provider (SP) and a Service Consumer (SC).",
+            "options": [
+              "SLO",
+              "SLA",
+              "KPI",
+              "Utility Premium"
+            ],
+            "explanation": "SLA (Service Level Agreement) is a formal contract between a Service Provider (SP) and a Service Consumer (SC) in slide 2 of SLA. So the correct option is B.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "Statement 1: SLA contains SLO. Statement 2: Multiple KPIs are aggregated to SLA.",
+            "options": [
+              "Statement 1 is TRUE and Statement 2 is FALSE",
+              "Statement 2 is TRUE and Statement 1 is FALSE",
+              "Both statements are TRUE",
+              "Both statements are FALSE"
+            ],
+            "explanation": "SLA contains SLO. Multiple KPIs are aggregated to SLO. So statement 1 is correct and statement 2 is incorrect.",
+            "correctAnswer": [0]
+          },
+          {
+            "question": "If demand is flat, the penalty will be linear.",
+            "options": [
+              "TRUE",
+              "FALSE"
+            ],
+            "explanation": "If demand is flat, the penalty will be zero.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "What is/are the correct statement(s) regarding VM load management?",
+            "options": [
+              "When load increases, new VMs should be scheduled to new nodes.",
+              "When load decreases, use WOL to start up waiting nodes.",
+              "When load increases, use WOL to start up waiting nodes.",
+              "When load decreases, live migrate VMs to more utilized nodes."
+            ],
+            "explanation": "When load decreases, VMs should be live migrated to more utilized nodes. When load increases, WOL should be used to start up waiting nodes and new VMs should be scheduled to new nodes.",
+            "correctAnswer": [0, 2, 3]
+          },
+          {
+            "question": "A company XYZ needs to support a spike in demand when it becomes popular followed potentially by a reduction once some of the visitors turn away. The company has two options to satisfy the requirements (In-house server vs Cloud server). Select the correct statement(s) regarding the value(s) of (total-cost/effective-hour) for both the options.",
+            "options": [
+              "Total-cost / Effective-hour for in-house server is 81.42 INR over three years.",
+              "Total-cost / Effective-hour for cloud server is 42 INR.",
+              "Total-cost / Effective-hour for in-house server is 46.42 INR over three years.",
+              "Total-cost / Effective-hour for cloud server is 40 INR."
+            ],
+            "explanation": "For in-house server: Cost/hour = 1,80,000/(3*365*24) = 6.849 INR (Time is given as a three year span.) Cost/Effective-hour = Cost/hour * (1/efficiency) = 6.489*(100/60) ~ 11.42 INR Total cost/Effective-hour = 11.42 + 25 + 10 = 46.42 INR. For cloud server: Cost/hour = 32 INR Cost/Effective-hour = Cost/hour * (1/efficiency) = 32*(100/80) = 40 INR Total cost/Effective-hour = 40 + 2 = 42 INR.",
+            "correctAnswer": [1, 2]
+          },
+          {
+            "question": "A third-party application runs in the cloud for 12 hours/day. At the end of one month [30 days], it was found that the cloud service suffered 5 outages of durations: 1 hour 30 minutes, 30 minutes, 2 hours 15 minutes, 1 hour 45 minutes and T hours, each on different days over the service period. Suppose a cloud guarantees service availability for 97% of time. What are the possible value(s) of T that SLA negotiation gets honored in terms of service availability?",
+            "options": [
+              "3 hours",
+              "6 hours",
+              "12 hours",
+              "8 hours"
+            ],
+            "explanation": "Total Outage: (6+T) hours, application runs for 360 hours in a month. Availability = 1 - (downtime/uptime). For availability: [1- {(6+T)/(354-T)}] >= 0.97, T<=4.48. Option A is correct.",
+            "correctAnswer": [0]
+          },
+          {
+            "question": "Which of the following is/are objective(s) of Resource Management?",
+            "options": [
+              "Increased latency",
+              "Scalability",
+              "Improved throughput",
+              "Improved security"
+            ],
+            "explanation": "From the objectives outlined in slide 9 of Resource Management - II.",
+            "correctAnswer": [1, 2]
+          },
+          {
+            "question": "Which of the following is/are resource allocation approaches in resource management?",
+            "options": [
+              "Energy-aware resource allocation",
+              "Reinforcement learning guided control policy",
+              "Network queueing model",
+              "Intelligent multi-agent model"
+            ],
+            "explanation": "Energy-aware resource allocation and intelligent multi-agent model are resource allocation approaches. Network queueing model is a resource provisioning approach and reinforcement learning guided control policy is a resource adaptation approach.",
+            "correctAnswer": [0, 3]
+          },
+          {
+            "question": "Statement 1: Each reducer groups the results of the map step using different keys and performs a function f on the list of values that correspond to these keys. Statement 2: Files are sorted by a key and stored to the local file system.",
+            "options": [
+              "Statement 1 is TRUE and Statement 2 is FALSE",
+              "Statement 2 is TRUE and Statement 1 is FALSE",
+              "Both statements are TRUE",
+              "Both statements are FALSE"
+            ],
+            "explanation": "Each reducer groups the results of the map step using the same keys and performs a function f on the list of values corresponding to the keys. So statement 1 is false. Statement 2 is true.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "In computing, there is a nonlinear relationship between the number of processing cores used and power consumption",
+            "options": [
+              "TRUE",
+              "FALSE"
+            ],
+            "explanation": "Refer to slide 10 of resource management-I.",
+            "correctAnswer": [0]
+          },
+          
+            {
+              "question": "Modification is an attack on:",
+              "options": [
+                "Authenticity",
+                "Integrity", 
+                "Confidentiality",
+                "Availability"
+              ],
+              "explanation": "Modification is an attack on integrity.",
+              "correctAnswer": [1]
+            },
+            {
+              "question": "Which of the following is/are example(s) of passive attack?",
+              "options": [
+                "Replay",
+                "Denial of service",
+                "Traffic analysis",
+                "Masquerade"
+              ],
+              "explanation": "Traffic analysis is an example of passive attack.",
+              "correctAnswer": [2]
+            },
+            {
+              "question": "Which of the following is/are the recovery goal(s) of the security mechanism?",
+              "options": [
+                "Prevent attackers from violating security policy",
+                "Detect attackers' violation of security policy",
+                "Stop attack, assess and repair damage",
+                "Continue to function correctly even if attack succeeds"
+              ],
+              "explanation": "Refer slide no. 8 of Cloud-Security I.",
+              "correctAnswer": [2, 3]
+            },
+            {
+              "question": "Statement I: Authorization is the identification of legitimate users. Statement II: Integrity is the protection against data alteration/corruption.",
+              "options": [
+                "Statement I is TRUE and statement II is FALSE.",
+                "Statement I is FALSE and statement II is TRUE.",
+                "Both statements are TRUE.",
+                "Both statements are FALSE."
+              ],
+              "explanation": "Refer slide no. 18 of Cloud-Security I. Authorization is the determination of whether or not an operation is allowed by a certain user. Integrity is the protection against data alteration/corruption. So the first statement is false and the second statement is true.",
+              "correctAnswer": [1]
+            },
+            {
+              "question": "Which of the following is/are hypervisor risks associated with rogue hypervisor rootkits?",
+              "options": [
+                "Vulnerable virtual machine applications like Vmchat, VMftp, Vmcat etc.",
+                "Hypervisor that hides itself from normal malware detection systems",
+                "Improper configuration of VM.",
+                "Hypervisor that creates a covert channel to dump unauthorized code."
+              ],
+              "explanation": "Hypervisor risks associated with rogue hypervisor rootkits include hypervisors that hide themselves from normal malware detection systems, and hypervisors that create a covert channel to dump unauthorized code.",
+              "correctAnswer": [1, 3]
+            },
+            {
+              "question": "Match: 1. Injection attack 2. Flooding 3. Metadata (WSDL) spoofing attack with (a) Attacker sending huge amounts of requests to a certain service and causing denial of service. (b) Browser-based security issues. (c) Introduce malicious code to change the course of execution. (d) Malicious reengineering of Web Services' metadata description.",
+              "options": [
+                "1-(a), 2-(b), 3-(d)",
+                "1-(c), 2-(a), 3-(d)",
+                "1-(b), 2-(c), 3-(d)",
+                "1-(a), 2-(c), 3-(d)"
+              ],
+              "explanation": "The following are web service based attacks. Refer to slide 23 of Cloud Security-II.",
+              "correctAnswer": [1]
+            },
+            {
+              "question": "Recovery Time Objective (RTO) represents the period of time allowed for the complete execution of the task.",
+              "options": [
+                "TRUE",
+                "FALSE"
+              ],
+              "explanation": "Recovery Time Objective (RTO) represents the period of time allowed for recovery i.e., the time that is allowed to elapse between the disaster and the activation of the secondary site.",
+              "correctAnswer": [1]
+            },
+            {
+              "question": "Which of the following Open-source tools is/are used to perform TCP connect probes on the Amazon EC2 platform?",
+              "options": [
+                "nmap",
+                "wget",
+                "ipconfig",
+                "hping"
+              ],
+              "explanation": "nmap is used to perform TCP connect probes (attempt to complete a 3-way hand-shake between a source and target). Refer to slide 12 of Cloud Security III.",
+              "correctAnswer": [0]
+            },
+            {
+              "question": "In para virtualization, VMs interact with the host OS.",
+              "options": [
+                "TRUE",
+                "FALSE"
+              ],
+              "explanation": "The statement is true. Refer page 19 of Cloud Security-II.",
+              "correctAnswer": [0]
+            },
+            {
+              "question": "In conflict removal, when is introduction of a virtual role required?",
+              "options": [
+                "In case of violation of SoD constraint violation.",
+                "In case of cyclic inheritance conflict where exactly matched role set exists.",
+                "In case of cyclic inheritance conflict where no exactly matched role set exists.",
+                "None of the above."
+              ],
+              "explanation": "Refer page 27 of Cloud Security-III on conflict removal.",
+              "correctAnswer": [2]
+            }
+          
+        
+      
+    
     
             
           
