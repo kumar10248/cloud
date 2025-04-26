@@ -5397,7 +5397,75 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
             "explanation": "The cyber-physical system involves transdisciplinary approaches, merging the theory of cybernetics, mechatronics, design, and process science.",
             "correctAnswer": [0]
           }
+        ,
         
+          {
+            "question": "Which of the following is NOT a characteristic of cloud computing?",
+            "options": [
+              "On-demand self-service",
+              "Broad network access",
+              "Resource pooling",
+              "Permanent local storage requirement"
+            ],
+            "explanation": "Cloud computing emphasizes on-demand services, broad network access, and resource pooling. It does not require permanent local storage, as data is stored in the cloud.",
+            "correctAnswer": [3]
+          },
+          {
+            "question": "Which of the following is an example of Platform as a Service (PaaS)?",
+            "options": [
+              "Amazon EC2",
+              "Google App Engine",
+              "Dropbox",
+              "Microsoft Azure Virtual Machines"
+            ],
+            "explanation": "Google App Engine is a PaaS offering that allows developers to build and deploy applications without managing the underlying infrastructure.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "In cloud computing, which model provides the most control over the computing resources?",
+            "options": [
+              "Software as a Service (SaaS)",
+              "Platform as a Service (PaaS)",
+              "Infrastructure as a Service (IaaS)",
+              "Function as a Service (FaaS)"
+            ],
+            "explanation": "IaaS provides the most control, allowing users to manage operating systems, storage, and deployed applications.",
+            "correctAnswer": [2]
+          },
+          {
+            "question": "Which of the following is a benefit of cloud computing?",
+            "options": [
+              "High capital expenditure",
+              "Limited scalability",
+              "Rapid elasticity",
+              "Complex disaster recovery"
+            ],
+            "explanation": "Cloud computing offers rapid elasticity, allowing resources to be scaled up or down quickly based on demand.",
+            "correctAnswer": [2]
+          },
+          {
+            "question": "Which deployment model combines public and private clouds?",
+            "options": [
+              "Community cloud",
+              "Hybrid cloud",
+              "Private cloud",
+              "Public cloud"
+            ],
+            "explanation": "A hybrid cloud combines public and private clouds, allowing data and applications to be shared between them.",
+            "correctAnswer": [1]
+          },
+          {
+            "question": "Which of the following is a disadvantage of cloud computing?",
+            "options": [
+              "Scalability",
+              "Dependency on internet connectivity",
+              "Cost-effectiveness",
+              "Flexibility"
+            ],
+            "explanation": "Cloud computing requires a reliable internet connection; without it, access to services and data can be disrupted.",
+            "correctAnswer": [1]
+          }
+                
       
     
     
