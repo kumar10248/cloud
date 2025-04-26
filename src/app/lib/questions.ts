@@ -1394,8 +1394,692 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
         "correctAnswer": [1]
       }
     ],
-    assignment: [
-    
+    assignment:[
+      {
+        "question": "Which of the following fall(s) under the 'essential characteristics' of cloud computing?",
+        "options": [
+          "Resource Pooling",
+          "Measured Service",
+          "Rapid Elasticity",
+          "Latency"
+        ],
+        "explanation": "Cloud computing is a model for on-demand network access to a shared pool of configurable computing resources that can provide rapid elasticity. It provides automatic control and optimizes resource use by leveraging a metering capability.",
+        "correctAnswer": [0, 1, 2]
+      },
+      {
+        "question": "'Google Doc' is an example of",
+        "options": [
+          "PaaS",
+          "IaaS",
+          "SaaS",
+          "FaaS"
+        ],
+        "explanation": "Google Slide is a provider's application that runs on Google Cloud. The application can be accessed from various client terminals through a client interface, say a web browser. So, It is a Software as a Service (SaaS) model.",
+        "correctAnswer": [2]
+      },
+      {
+        "question": "Business-Process-as-a-Service is not a part of XaaS.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Business-Process-as-a-Service is a part of XaaS (Anything-as-a-Service).",
+        "correctAnswer": [1]
+      },
+      {
+        "question": "Network Function Virtualization involves the implementation of _______ function in software that can run on a range of industry-standard servers ______________.",
+        "options": [
+          "network, software",
+          "hardware, software",
+          "hardware, network",
+          "network, hardware"
+        ],
+        "explanation": "Network Function Virtualization involves the implementation of network function in software that can run on a range of industry-standard servers hardware.",
+        "correctAnswer": [3]
+      },
+      {
+        "question": "Which are the following applications for SaaS (Software as a Service) architecture?",
+        "options": [
+          "Billing software",
+          "CRM",
+          "App engines",
+          "None of above"
+        ],
+        "explanation": "SaaS is useful for Billing and CRM software. PaaS is useful for app engines.",
+        "correctAnswer": [0, 1]
+      },
+      {
+        "question": "Web access to commercial software is one of the SaaS characteristics in the cloud computing paradigm.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Web access to commercial software is one of the SaaS characteristics in the cloud computing paradigm.",
+        "correctAnswer": [0]
+      },
+      {
+        "question": "In the case of the client-server model: Statement (i) Virtualization is a core concept; Statement (ii) system can scale infinitely",
+        "options": [
+          "Only Statement (i) is correct",
+          "Only Statement (ii) is correct",
+          "Both Statements (i) and (ii) are correct",
+          "None of the statements is correct"
+        ],
+        "explanation": "In the case of the client-server model: there is no concept of virtualization; the system can scale up to a certain extent.",
+        "correctAnswer": [3]
+      },
+      {
+        "question": "Client-server model is always load-balanced",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "The Client-server model may or may not be load-balanced.",
+        "correctAnswer": [1]
+      },
+      {
+        "question": "PaaS (Platform as a Service) brings the benefits: (i) Creation of software (ii) Integration of web services and databases",
+        "options": [
+          "Only (i)",
+          "Only (ii)",
+          "Both (i) and (ii)",
+          "Neither (i) nor (ii)"
+        ],
+        "explanation": "PaaS is a computing platform that allows developers to quickly create software or online applications by connecting web services and databases.",
+        "correctAnswer": [2]
+      },
+      {
+        "question": "Which of the following is false?",
+        "options": [
+          "Private cloud is dedicated solely to an organization.",
+          "Community cloud is a composition of public and private cloud.",
+          "Public cloud is available to the general public.",
+          "None of these"
+        ],
+        "explanation": "Community cloud is shared by several organizations and serves a specific goal.",
+        "correctAnswer": [1]
+      },
+      {
+        "question": "Service-Oriented Architecture (SOA) possess:",
+        "options": [
+          "A service provider, service requestor and service broker",
+          "A service provider and service requestor",
+          "A service requestor and service broker",
+          "Only a service broker"
+        ],
+        "explanation": "Service-Oriented Architecture (SOA) possesses: A service provider, service requestor and service broker.",
+        "correctAnswer": [0]
+      },
+      {
+        "question": "XML is designed to describe _________.",
+        "options": [
+          "pricing",
+          "SLA",
+          "data",
+          "service"
+        ],
+        "explanation": "XML is designed to describe data.",
+        "correctAnswer": [2]
+      },
+      {
+        "question": "SOAP (Simple Object Access Protocol) does not restrict the endpoint implementation technology choices. SOAP is a platform-neutral choice.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "SOAP does not restrict the endpoint implementation technology choices. SOAP is platform-neutral choice.",
+        "correctAnswer": [0]
+      },
+      {
+        "question": "A Cyber‐Physical Cloud Computing (CPCC) architectural framework is a ________environment that can rapidly build, modify and provision cyber‐physical systems composed of a set of__________ based sensor, processing, control, and data services.",
+        "options": [
+          "system, cloud computing",
+          "cloud computing, system",
+          "system, edge computing",
+          "edge, system computing"
+        ],
+        "explanation": "A Cyber‐Physical Cloud Computing (CPCC) architectural framework can be defined as 'a system environment that can rapidly build, modify and provision cyber‐physical systems composed of a set of cloud computing based sensor, processing, control, and data services.'",
+        "correctAnswer": [0]
+      },
+      {
+        "question": "Network Virtualization is a _________ environment that allows _______ service providers to dynamically compose ____________virtual networks.",
+        "options": [
+          "networking, single, single",
+          "physical, single, multiple",
+          "networking, multiple, single",
+          "networking, multiple, multiple"
+        ],
+        "explanation": "Network Virtualization is a networking environment that allows multiple service providers to dynamically compose multiple virtual networks.",
+        "correctAnswer": [3]
+      },
+      {
+        "question": "Customized wearable devices for collecting health parameters are the best examples of",
+        "options": [
+          "IoHT",
+          "Fog device",
+          "Fog-Cloud interfaced",
+          "Cloud-Fog-Edge-IoHT"
+        ],
+        "explanation": "Customized wearable devices for collecting health parameters are the best examples of Cloud-Fog-Edge-IoHT.",
+        "correctAnswer": [3]
+      },
+      {
+        "question": "Dew Computing is a paradigm where on-premises computers provide functionality that is _________ of cloud services and is also collaborative with cloud services",
+        "options": [
+          "dependant",
+          "independent",
+          "partial dependant",
+          "none of these"
+        ],
+        "explanation": "According to the definition given, dew computing is a paradigm where on-premises computers provide functionality that is independent of cloud services and is also collaborative with cloud services.",
+        "correctAnswer": [1]
+      },
+      {
+        "question": "SOAP uses ______ as transport protocol",
+        "options": [
+          "UDDI",
+          "SLA",
+          "HTTP",
+          "XML"
+        ],
+        "explanation": "SOAP uses HTTP as transport protocol.",
+        "correctAnswer": [2]
+      },
+      {
+        "question": "Virtual Machine Monitor is also known as",
+        "options": [
+          "Cluster Manager",
+          "Virtual Machine Handler",
+          "Virtual Machine Manager",
+          "Hypervisor"
+        ],
+        "explanation": "The hypervisor is also known as Virtual Machine Monitor.",
+        "correctAnswer": [3]
+      },
+      {
+        "question": "Which of the following is/are XML parser API(s)?",
+        "options": [
+          "XaaS (Anything as a Model)",
+          "SAX (Simple API to XML)",
+          "CLI (Command Line Interface)",
+          "DOM (Document Object Model)"
+        ],
+        "explanation": "DOM and SAX are two of the three generic parser APIs. They read XML data, check for syntax, and make data available to an application.",
+        "correctAnswer": [1, 3]
+      },
+      {
+        "question": "Which of the following statement(s) regarding OpenStack storage is/are right?",
+        "options": [
+          "Object storage is managed by Cinder",
+          "Both ephemeral storage and block storage are accessible from within VM",
+          "Block storage persists until VM is terminated",
+          "Ephemeral storage is used to run operating system and/or scratch space"
+        ],
+        "explanation": "Object storage is managed by Swift. Block storage persists until specifically deleted by the user. Thus, statements A and C are false.",
+        "correctAnswer": [1, 3]
+      },
+      {
+        "question": "A task takes time T in a uniprocessor system. In a parallel implementation, the task runs on P processors parallelly. The parallel efficiency is Eff, where 0<Eff<1. What is the time taken by each processor (M) in this implementation?",
+        "options": [
+          "M = T",
+          "M = T/(Eff×P)",
+          "M = T/P",
+          "M = (T×Eff)/P"
+        ],
+        "explanation": "According to the question, parallel efficiency (Eff) is less than 1. Therefore, the time taken by each processor will be greater than the ideal T/P, and M = T/(Eff×P).",
+        "correctAnswer": [1]
+      },
+      {
+        "question": "What does the term 'biasness towards vendors' imply in the context of SLA monitoring?",
+        "options": [
+          "Vendor-driven selection of monitoring parameters",
+          "Customer-driven selection of monitoring parameters",
+          "Balanced approach in monitoring parameters",
+          "Lack of active monitoring on the customer's side"
+        ],
+        "explanation": "Biasness towards vendors means measurement of parameters is mostly established according to vendor advantage or in other words vendor-driven selection of monitoring parameters.",
+        "correctAnswer": [0]
+      },
+      {
+        "question": "How does the master node in the Google File System maintain communication with chunk servers?",
+        "options": [
+          "Command messages",
+          "Update messages",
+          "Query messages",
+          "Heartbeat messages"
+        ],
+        "explanation": "In GFS, master maintains regular communication with chunk servers by Heartbeat messages.",
+        "correctAnswer": [3]
+      },
+      {
+        "question": "In a cloud, total service uptime is 175 minutes and availability of the service is 0.85. What is the service downtime?",
+        "options": [
+          "55 minutes",
+          "148.75 minutes",
+          "26.25 minutes",
+          "45 minutes"
+        ],
+        "explanation": "Availability = 1 – (downtime/uptime). Downtime = Uptime×(1-Availability) = 175*(1-0.85) = 26.25 minutes.",
+        "correctAnswer": [2]
+      },
+      {
+        "question": "Statement 1: In ephemeral storage, the stored objects persist until the VM is terminated. Statement 2: The ephemeral storage is managed by Cinder in OpenStack.",
+        "options": [
+          "Statement 1 is TRUE, Statement 2 is FALSE",
+          "Statement 2 is TRUE, Statement 1 is FALSE",
+          "Both statements are TRUE",
+          "Both statements are FALSE"
+        ],
+        "explanation": "Ephemeral storage is managed by NOVA in OpenStack.",
+        "correctAnswer": [0]
+      },
+      {
+        "question": "'Midsize providers can achieve similar statistical economies to an infinitely large provider' Does this fall under?",
+        "options": [
+          "Correlated demand",
+          "Dependent demand",
+          "Independent demand",
+          "Mixed demand"
+        ],
+        "explanation": "Midsize providers can achieve similar statistical economies to an infinitely large provider–independent demands.",
+        "correctAnswer": [2]
+      },
+      {
+        "question": "Let D(t) and R(t) be the instantaneous demand and resources at time t respectively. If demand is exponential (D(t)=e^t), any fixed provisioning interval (tp) according to the current demands will fall linearly behind.",
+        "options": [
+          "TRUE",
+          "FALSE"
+        ],
+        "explanation": "If demand is exponential (D(t)=e^t), any fixed provisioning interval (tp) according to the current demands will fall exponentially behind.",
+        "correctAnswer": [1]
+      },
+      {
+        "question": "Which of the following is/are expected common SLA parameter(s) for both Software-as-a-Service and Storage-as-a-Service models?",
+        "options": [
+          "usability",
+          "scalability",
+          "recovery",
+          "None of these"
+        ],
+        "explanation": "Scalability is common among the options.",
+        "correctAnswer": [1]
+      },
+      {
+        "question": "Data retention and deletion by cloud providers do not fall under one of the SLA requirements.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Some cloud providers have legal requirements of retaining data even of it has been deleted by the consumer. Hence, they must be able to prove their compliance with these policies.",
+        "correctAnswer": [0]
+      },
+      {
+        "question": "SQL Azure is a cloud-based relational database service that is based on:",
+        "options": [
+          "Oracle",
+          "SQL Server",
+          "MySQL",
+          "None"
+        ],
+        "explanation": "SQL Azure is Microsoft's cloud database service based on SQL Server database technology and built on Microsoft's Windows Azure cloud computing platform.",
+        "correctAnswer": [1]
+      },
+      {
+        "question": "Microsoft Azure provides",
+        "options": [
+          "SaaS",
+          "PaaS",
+          "IaaS",
+          "None"
+        ],
+        "explanation": "Microsoft Azure, formerly known as Windows Azure, is Microsoft's public cloud computing platform. It provides a range of cloud services, including those for compute, analytics, platform, storage and networking.",
+        "correctAnswer": [0, 1, 2]
+      },
+      {
+        "question": "Azure App Service plan defines",
+        "options": [
+          "Region",
+          "Instance size",
+          "Scale count",
+          "None"
+        ],
+        "explanation": "An App Service plan defines a set of compute resources for a web app to run. Each App Service plan defines: I. Region (West US, East US, etc.) II. Number of VM instances III. Size of VM instances (Small, Medium, Large) IV. Pricing tier (Free, Shared, Basic, Standard, Premium, PremiumV2, Isolated, Consumption).",
+        "correctAnswer": [0, 1, 2]
+      },
+      {
+        "question": "The OpenStack component - Glance monitors and meters the OpenStack cloud for billing, benchmarking. State True of False.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Glance image services include discovering, registering, and retrieving virtual machine images. Ceilometer provides telemetry services, which allow the cloud to provide billing services to individual users of the cloud.",
+        "correctAnswer": [1]
+      },
+      {
+        "question": "GCP: Choose the correct option(s)",
+        "options": [
+          "To run your web-application, you need to configure only the Google Storage bucket",
+          "'gcloud app deploy app.yaml' the command can be used to deploy your app to app-engine",
+          "After launching your application to app-engine anyone can view the app at http://[YOUR_PROJECT_ID].appspot.com",
+          "'gcloud app browse' – can be used to start the local development server for the application"
+        ],
+        "explanation": "Option A is wrong because you can't run your web-app only configuring storage bucket, you need a PaaS configuration. Option D is incorrect as that command is used to view web-app.",
+        "correctAnswer": [1, 2]
+      },
+      {
+        "question": "In OpenStack, the different components of Nova (e.g. scheduler, Compute, api etc.) communicates via:",
+        "options": [
+          "Message Queues",
+          "Neutron",
+          "Conductor",
+          "Swift"
+        ],
+        "explanation": "Nova is comprised of multiple server processes, each performing different functions. The user-facing interface is a REST API, while internally Nova components communicate via an RPC message passing mechanism.",
+        "correctAnswer": [0]
+      },
+      {
+        "question": "In OpenStack, __________ is a system for managing networks and IP addresses.",
+        "options": [
+          "Nova",
+          "Keystone",
+          "Neutron",
+          "None of these"
+        ],
+        "explanation": "Neutron provides the networking capability for OpenStack. It helps to ensure that each of the components of an OpenStack deployment can communicate with one another quickly and efficiently.",
+        "correctAnswer": [2]
+      },
+      {
+        "question": "Cloud DataStore in GCP is a NoSQL document database built for automatic scaling, high performance, and ease of application development",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Google Cloud Datastore is a highly scalable, fully managed NoSQL database service offered by Google on the Google Cloud Platform. Cloud Datastore is built upon Google's Bigtable and Megastore technology.",
+        "correctAnswer": [0]
+      },
+      {
+        "question": "GCP: Which one is/are correct statement(s)?",
+        "options": [
+          "You can reuse the project ID only after you delete the previous project in GCP",
+          "A CNAME alias is a DNS record that lets you use a URL from your own domain to access resources, such as a bucket and objects, in Cloud Storage using your custom domain URL",
+          "'Multi-Regional' Storage class is used for the bucket to stream videoes and host hot web content accessed frequently around the world",
+          "'Nearline' Storage class is used for the bucket to store data accessed frequently in one part of the world"
+        ],
+        "explanation": "We cannot use the same project ID as it is the unique identifier. Nearline Storage is appropriate for data backup, disaster recovery, and archival storage while Regional Storage enables to store data at lower cost and data being stored in a specific regional location, instead of having redundancy distributed over a large geographic area.",
+        "correctAnswer": [1, 2]
+      },
+      {
+        "question": "OpenStack: Which IP use is preferred for transferring data to a VM from (i) Another VM in the same cloud (ii) One organization's network-",
+        "options": [
+          "i. Floating IP, ii. Private IP",
+          "i. Private IP, ii. Floating IP",
+          "Floating IP in both cases",
+          "Private IP in both cases"
+        ],
+        "explanation": "Compute assigns a private IP address to each VM instance. Compute makes a distinction between fixed IPs and floating IP. Fixed IPs are IP addresses that are assigned to an instance on creation and stay the same until the instance is explicitly terminated. Floating IPs are addresses that can be dynamically associated with an instance. A floating IP address can be disassociated and associated with another instance at any time. A user can reserve a floating IP for their project.",
+        "correctAnswer": [1]
+      },
+      {
+        "question": "In a SLA negotiation, the provider agreed with the service availability of 98%. The consumer runs the application for X hours/day. At the end of one month [31 days], the total service outage was 12 hrs. However, SLA negotiation (in terms of service availability) is honored.",
+        "options": [
+          "X is atleast 19.74",
+          "X is atmost 19.74",
+          "X is exactly 19.74",
+          "Insufficient information"
+        ],
+        "explanation": "Total time for which the application will run (in a month)=(X*31) hours Outage time=12 hours Therefore, service duration=(X*31-12) hours % Availability=(1- outage time/service duration)*100 %=(1-(12/(X*31-12)))*100 % Initial service guarantee=98% As, final service availability>= initial service guarantee 98<=(1-(12/(X*31-12)))*100 or, X>=19.74.",
+        "correctAnswer": [0]
+      },
+      {
+        "question": "Average resource demand is 45 units, Baseline (owned) unit cost is 200 units, Time is 10 hours, Peak resource demand is 100 units. If the cloud is cheaper than owning of computer infrastructures, the utility premium is",
+        "options": [
+          "Greater than 2.22",
+          "Less than 2.22",
+          "Atleast 4.45",
+          "Atmost 4.45"
+        ],
+        "explanation": "CT < BT implies A * U * B * T < P * B * T. Or, A*U < P. Or, U < P/A. Where A= Average Demand, U= Utility Premium, B=Baseline (owned) unit cost, T=Time, P=Peak Demand, CT=Cloud cost and BT=Owning cost. Here P=100 units, A=45 units U< P/A implies U< 100/45 or, U < 2.22.",
+        "correctAnswer": [1]
+      },
+      {
+        "question": "In computing, there is a linear relationship between the number of processing cores used and power consumption.",
+        "options": [
+          "TRUE",
+          "FALSE"
+        ],
+        "explanation": "Refer to slide 10 of resource management-I.",
+        "correctAnswer": [0]
+      },
+      {
+        "question": "The ________ takes a series of key/value pairs, processes each, and generates zero or more output.",
+        "options": [
+          "map function",
+          "partition function",
+          "reduce function",
+          "None of these"
+        ],
+        "explanation": "The map function takes a series of key/value pairs, processes each, and generates zero or more output.",
+        "correctAnswer": [0]
+      },
+      {
+        "question": "In a MapReduce framework the HDFS block size is 64 MB. We have 6 files of size 64KB, 65MB, X MB, Y KB, 67KB and 127MB. 24 blocks are created by Hadoop framework. The size of X and Y are respectively [one or more than one options may be correct, select all correct options]:",
+        "options": [
+          "66 and 64",
+          "64 and 64",
+          "64 and 66",
+          "128 and 64"
+        ],
+        "explanation": "The total number of blocks needed for 64 KB, 65 MB, 67 KB, 127 MB is (1+2+1+2)*3=18 [3 is the number of replicas] Number of remaining blocks=(24-18)/3=6/3=2 [3 is the number of replicas] Only option b and c are correct as the size requirement can be satisfied with 2 blocks.",
+        "correctAnswer": [1, 2]
+      },
+      {
+        "question": "Which among the following is/are logical resource(s)?",
+        "options": [
+          "Network",
+          "Computer",
+          "Database",
+          "Execution"
+        ],
+        "explanation": "Execution is a logical resource.",
+        "correctAnswer": [3]
+      },
+      {
+        "question": "When load decreases, VM management can be done by",
+        "options": [
+          "Live migrate VMs to more utilized nodes",
+          "Shutdown unused nodes",
+          "Migrate VMs to less utilized nodes",
+          "None of these"
+        ],
+        "explanation": "When load decreases, VM management can be done by – a) Live migrating VMs to more utilized nodes b) Shutting down unused nodes.",
+        "correctAnswer": [0, 1]
+      },
+      {
+        "question": "Correspondence between resources required by the users and resources available with the provider is known as",
+        "options": [
+          "Resource provisioning",
+          "Resource adaptation",
+          "Resource mapping",
+          "None of these"
+        ],
+        "explanation": "Correspondence between resources required by the users and resources available with the provider is known as resource mapping.",
+        "correctAnswer": [2]
+      },
+      {
+        "question": "Ability or capacity of that system to adjust the resources dynamically to fulfill the requirements of the user is known as",
+        "options": [
+          "Resource provisioning",
+          "Resource adaptation",
+          "Resource mapping",
+          "None of these"
+        ],
+        "explanation": "Ability or capacity of that system to adjust the resources dynamically to fulfill the requirements of the user is known as resource adaptation.",
+        "correctAnswer": [1]
+      },
+      {
+        "question": "Statement 1: Map operation consists of transforming one set of key-value pairs to another. Statement 2: Each reducer groups the results of the map step using the same key.",
+        "options": [
+          "Both statements are true",
+          "Both statements are false",
+          "Statement 1 is true and Statement 2 is false",
+          "Statement 1 is false and Statement 2 is true"
+        ],
+        "explanation": "Map operation consists of transforming one set of key-value pairs to another. Each reducer groups the results of the map step using the same key.",
+        "correctAnswer": [0]
+      },
+      {
+        "question": "Interception is considered as an attack on",
+        "options": [
+          "Confidentiality",
+          "Availability",
+          "Integrity",
+          "Authenticity"
+        ],
+        "explanation": "Interception security attack is attack on confidentiality.",
+        "correctAnswer": [0]
+      },
+      {
+        "question": "Find the correct statement(s):",
+        "options": [
+          "Different types of cloud computing service models provide different levels of security services",
+          "Adapting your on-premises systems to a cloud model requires that you determine what security mechanisms are required and mapping those to controls that exist in your chosen cloud service provider",
+          "Data should be transferred and stored in an encrypted format for security purpose",
+          "All are incorrect statements"
+        ],
+        "explanation": "Cloud computing security or, more simply, cloud security refers to a broad set of policies, technologies, and controls deployed to protect data, applications, and the associated infrastructure of cloud computing.",
+        "correctAnswer": [0, 1, 2]
+      },
+      {
+        "question": "Which of the following is/are example(s) of passive attack?",
+        "options": [
+          "Replay",
+          "Denial of service",
+          "Traffic analysis",
+          "Masquerade"
+        ],
+        "explanation": "Traffic analysis is an example of passive attack. Others are active attacks.",
+        "correctAnswer": [2]
+      },
+      {
+        "question": "Modification is considered as an attack on",
+        "options": [
+          "Confidentiality",
+          "Availability",
+          "Integrity",
+          "Authenticity"
+        ],
+        "explanation": "Modification security attack is attack on integrity.",
+        "correctAnswer": [2]
+      },
+      {
+        "question": "Spoofing is not an example of",
+        "options": [
+          "Deception",
+          "Disclosure",
+          "Usurpation",
+          "Disruption"
+        ],
+        "explanation": "In the context of network security, a spoofing attack is a situation in which a person or program successfully masquerades as another by falsifying data, to gain an illegitimate advantage.",
+        "correctAnswer": [1, 3]
+      },
+      {
+        "question": "Consider the following statements: Statement I: Authorization is the identification of legitimate users. Statement II: Integrity is the protection against data alteration/corruption. Identify the correct options:",
+        "options": [
+          "Statement I is TRUE and statement II is FALSE.",
+          "Statement I is FALSE and statement II is TRUE.",
+          "Both statements are TRUE.",
+          "Both statements are FALSE."
+        ],
+        "explanation": "Authorization is the determination of whether or not an operation is allowed by a certain user. Integrity is the protection against data alteration/corruption. So the first statement is false and the second statement is true.",
+        "correctAnswer": [1]
+      },
+      {
+        "question": "Access policy control refers to",
+        "options": [
+          "Cyclic Inheritance Control",
+          "Virus Attack",
+          "Violation of SoD (separation of duties) Constraint",
+          "Man in the middle attack"
+        ],
+        "explanation": "Access control policies are enforced through a mechanism that translates a user's access request, often in terms of a structure that a system provides. Virus attack and man in the middle attack are not related to access control policy.",
+        "correctAnswer": [0, 2]
+      },
+      {
+        "question": "Which of the options is/are considered as the basic components of security?",
+        "options": [
+          "Confidentiality",
+          "Integrity",
+          "Reliability",
+          "Efficiency"
+        ],
+        "explanation": "Confidentiality (keeping data and resources hidden), Integrity and Availability (enabling access to data and resources) are the major components of security.",
+        "correctAnswer": [0, 1]
+      },
+      {
+        "question": "Which of the following is/are not a type of passive attack?",
+        "options": [
+          "Traffic Analysis",
+          "Release of message contents",
+          "Denial of service",
+          "Replay"
+        ],
+        "explanation": "Passive attack (Traffic analysis, release of message contents) and Active attack (Denial of service, Modification, Masquerade and Replay).",
+        "correctAnswer": [2, 3]
+      },
+      {
+        "question": "Side channel exploitation has the potential to extract RSA & AES secret keys",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Cross-VM information leakage due to sharing of physical resource (CPU's data caches).",
+        "correctAnswer": [0]
+      },
+      {
+        "question": "The key features of mobile cloud computing (MCC) are",
+        "options": [
+          "Facilitates the quick development, delivery and management of mobile apps",
+          "Uses more device resources because applications are cloud-supported",
+          "Improves reliability with information backed up and stored in the cloud",
+          "None of these"
+        ],
+        "explanation": "The key features of mobile cloud computing are: Facilitates the quick development, delivery and management of mobile apps. Improves reliability with information backed up and stored in the cloud.",
+        "correctAnswer": [0, 2]
+      },
+      {
+        "question": "Dynamic runtime offloading involves the issues of",
+        "options": [
+          "Runtime application partitioning",
+          "Migration of intensive components",
+          "Continuous synchronization for the entire duration of runtime execution platform",
+          "None of these"
+        ],
+        "explanation": "Dynamic runtime offloading involves the issues of:- runtime application partitioning, migration of intensive components, continuous synchronization for the entire duration of runtime execution platform.",
+        "correctAnswer": [0, 1, 2]
+      },
+      {
+        "question": "What is/are true about cloudlet?",
+        "options": [
+          "Increases the latency in reaching the cloud servers",
+          "Reduces the latency in reaching the cloud servers",
+          "Resides far from the mobile devices",
+          "Resides near to the mobile devices"
+        ],
+        "explanation": "Cloudlet reduces the latency in reaching the cloud servers. Cloudlet resides near to the mobile devices.",
+        "correctAnswer": [1, 3]
+      },
+      {
+        "question": "What is/are true about mobile cloud computing (MCC)?",
+        "options": [
+          "MCC increases the running cost for computation intensive applications",
+          "MCC reduces the running cost for computation intensive applications",
+          "MCC decreases battery lifetime",
+          "None of these"
+        ],
+        "explanation": "MCC reduces the running cost for computation intensive applications.",
+        "correctAnswer": [1]
+      },
+      
     ],
   };
 
