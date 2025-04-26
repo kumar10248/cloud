@@ -2080,6 +2080,655 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
         "correctAnswer": [1]
       },
       
+        {
+          "question": "The key features of mobile cloud computing (MCC) are",
+          "options": [
+            "Facilitates the quick development, delivery and management of mobile apps",
+            "Uses more device resources because applications are cloud-supported",
+            "Improves reliability with information backed up and stored in the cloud",
+            "None of these"
+          ],
+          "explanation": "The key features of mobile cloud computing are: Facilitates the quick development, delivery and management of mobile apps. Improves reliability with information backed up and stored in the cloud.",
+          "correctAnswer": [0, 2]
+        },
+        {
+          "question": "Dynamic runtime offloading involves the issues of",
+          "options": [
+            "Runtime application partitioning",
+            "Migration of intensive components",
+            "Continuous synchronization for the entire duration of runtime execution platform",
+            "None of these"
+          ],
+          "explanation": "Dynamic runtime offloading involves the issues of:- runtime application partitioning, migration of intensive components, continuous synchronization for the entire duration of runtime execution platform.",
+          "correctAnswer": [0, 1, 2]
+        },
+        {
+          "question": "What is/are true about cloudlet?",
+          "options": [
+            "Increases the latency in reaching the cloud servers",
+            "Reduces the latency in reaching the cloud servers",
+            "Resides far from the mobile devices",
+            "Resides near to the mobile devices"
+          ],
+          "explanation": "Cloudlet reduces the latency in reaching the cloud servers. Cloudlet resides near to the mobile devices.",
+          "correctAnswer": [1, 3]
+        },
+        {
+          "question": "What is/are true about mobile cloud computing (MCC)?",
+          "options": [
+            "MCC increases the running cost for computation intensive applications",
+            "MCC reduces the running cost for computation intensive applications",
+            "MCC decreases battery lifetime",
+            "None of these"
+          ],
+          "explanation": "MCC reduces the running cost for computation intensive applications.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "What is/are true about the execution of services in mobile cloud computing (MCC)?",
+          "options": [
+            "All services are executed in cloud",
+            "Some services are executed in mobile devices and some services are executed in cloud",
+            "All computation intensive services are executed in mobile devices",
+            "None of these"
+          ],
+          "explanation": "Some services are executed in mobile devices and some services are executed in cloud.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "What of the following is/are fog device(s)?",
+          "options": [
+            "Cellular base stations",
+            "Network routers",
+            "WiFi Gateways",
+            "None of these"
+          ],
+          "explanation": "Cellular base stations, network routers as well as WiFi Gateways are fog devices.",
+          "correctAnswer": [0, 1, 2]
+        },
+        {
+          "question": "What is/are the advantage(s) of fog computing?",
+          "options": [
+            "Reduction in data movement across the network resulting in reduced congestion",
+            "Increase in data movement across the network resulting in increased congestion",
+            "Serving the real-time applications",
+            "None of these"
+          ],
+          "explanation": "The advantages of fog computing are:- reduction in data movement across the network resulting in reduced congestion, serving the real- time applications.",
+          "correctAnswer": [0, 2]
+        },
+        {
+          "question": "Consider the following statements about Geospatial Cloud: Statement 1: In Geospatial Cloud, it is needed to integrate data from heterogeneous back-end data service. Statement 2: Data services can be inside and/or outside of the cloud environment in Geospatial Cloud.",
+          "options": [
+            "Statement 1 is Correct, but Statement 2 is Incorrect",
+            "Statement 2 is Correct, but Statement 1 is Incorrect",
+            "Both statements are Correct",
+            "Both statements are Incorrect"
+          ],
+          "explanation": "Both statements are correct regarding Geospatial Cloud concept.",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "Which of the following statement(s) is/are FALSE about Fog Computing?",
+          "options": [
+            "Fog nodes present near to the end-user",
+            "Fog computing enables real-time applications",
+            "Fog nodes' response time is much higher than Cloud's",
+            "Network routers, WiFi Gateways will not be capable of running applications"
+          ],
+          "explanation": "Fog nodes present near to the end-user, Fog computing use for real-time applications, Fog nodes' response time is much lower than cloud server, network routers, WiFi Gateways will be capable of running applications.",
+          "correctAnswer": [2, 3]
+        },
+        {
+          "question": "Which of the following is/are true about Geospatial Cloud Model?",
+          "options": [
+            "It integrates data from homogeneous back-end data services",
+            "Data services can be inside and/or outside the cloud environment",
+            "Data services inside cloud can be run through SaaS service model",
+            "None of the above"
+          ],
+          "explanation": "Data services can be inside and/or outside the cloud environment in Geospatial Cloud Model.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "An IoT platform's basic building blocks is/ are",
+          "options": [
+            "Gateway",
+            "Images",
+            "Network and Cloud",
+            "Containers"
+          ],
+          "explanation": "An IoT platform has three basic building blocks, Things, Gateway, and Network and Cloud.",
+          "correctAnswer": [0, 2]
+        },
+        {
+          "question": "__________ is used to delete a local image.",
+          "options": [
+            "Docker rm",
+            "Docker rmi",
+            "Docker rvi",
+            "Docker push"
+          ],
+          "explanation": "Docker rmi is used to delete a local image.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "Docker Hub is a registry used to host various docker images.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "explanation": "Docker Hub is a registry used to host various docker images.",
+          "correctAnswer": [0]
+        },
+        {
+          "question": "__________ enables different networks, spreads in a huge geographical area to connect together and be employed simultaneously by multiple users on demand.",
+          "options": [
+            "Serverless",
+            "IoT Cloud",
+            "Sensor Cloud",
+            "Green Cloud"
+          ],
+          "explanation": "Sensor Cloud enables different networks, spreads in a huge geographical area to connect together and be employed simultaneously by multiple users on demand.",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "Virtual machines get virtual access to host resources through a ________",
+          "options": [
+            "Containers",
+            "Hypervisor",
+            "Both a and b",
+            "Images"
+          ],
+          "explanation": "Virtual machines get virtual access to host resources through a hypervisor.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "Vehicles providing their networking and data processing capabilities to other vehicles through the cloud comes under which service of IoT-based Vehicular Data Clouds.",
+          "options": [
+            "SaaS",
+            "PaaS",
+            "IaaS",
+            "None of these"
+          ],
+          "explanation": "Vehicles provide their networking and data processing capabilities to other vehicles through the cloud comes under the Networking and Data processing as a service (IaaS)",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "Sensor data can be easily shared by different groups of users without any extra effort/ measure.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "explanation": "One of the limitations of Sensor Networks is \"Sensor data can not be easily shared by different groups of users.\"",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "Container is a compile time instance of an image.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "explanation": "Container is a run time instance of an image.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "In the context of Green Cloud Computing, the Power Usage Effectiveness is defined as",
+          "options": [
+            "Power Delivered / Overall Power",
+            "Overall Power / Power Delivered",
+            "Overall Power * Power Delivered",
+            "None of these"
+          ],
+          "explanation": "In the context of Green Cloud Computing, the Power Usage Effectiveness is defined as Overall Power / Power Delivered.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "Statement 1: Sensor-Cloud proxy exposes sensor resources as cloud services. Statement 2: Sensor network is still managed from the Sensor-Cloud Interface via Sensor Network Proxy",
+          "options": [
+            "Statement 1 is True and Statement 2 is False",
+            "Statement 2 is True and Statement 1 is False",
+            "Both statements are True",
+            "Both statements are False"
+          ],
+          "explanation": "Sensor cloud proxy exposes sensor resources as cloud services. Sensor network is still managed from the Sensor-Cloud Interface via Sensor Network Proxy.",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "Which of the following statements best describes fog computing?",
+          "options": [
+            "Fog computing refers to a model where data, processing, and applications are concentrated in the cloud rather than at the network edge",
+            "Fog computing is a term introduced by Cisco Systems to describe a model that centralizes data processing in the cloud to manage wireless data transfer to distributed IoT devices",
+            "Fog computing is a model where data, processing, and applications are concentrated in devices at the network edge rather than existing almost entirely in the cloud",
+            "The vision of fog computing is to enable applications on a few connected devices to run directly in the cloud without interaction at the network edge"
+          ],
+          "explanation": "Fog computing is characterized by its focus on edge processing rather than cloud-centralized processing.",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "Which of the following challenges is most effectively addressed by using fog and edge computing instead of a \"cloud-only\" approach for IoT applications?",
+          "options": [
+            "Resource management issues related to workload balance and task scheduling in cloud-based environments",
+            "The inefficiency of processing time-sensitive applications directly in the cloud due to high latency and large data bandwidth requirements",
+            "The need for improved security and privacy features in cloud-based systems, which are not addressed by fog and edge computing",
+            "The difficulty in integrating multiple cloud services and platforms for comprehensive IoT data management"
+          ],
+          "explanation": "Fog and edge computing offer solutions to the inefficiencies of processing time-sensitive applications in a \"cloud-only\" scenario by reducing latency and managing data bandwidth more effectively.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "Which of the following correctly describes a classification of resource management architectures in fog/edge computing?",
+          "options": [
+            "Data Flow",
+            "Control",
+            "Tenancy",
+            "Infrastructure"
+          ],
+          "explanation": "Tenancy is correctly described as the support for hosting multiple applications or a single application on an edge node.",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "Which of the following characteristics is NOT typically associated with fog computing infrastructure?",
+          "options": [
+            "Location awareness and low latency",
+            "Better bandwidth utilization",
+            "High computational power concentrated solely in the Cloud",
+            "Support for mobility"
+          ],
+          "explanation": "High computational power concentrated solely in the Cloud is not a characteristic of fog computing; instead, fog computing distributes computational resources across edge nodes.",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "In the fog computing paradigm, which of the following accurately describes the relationship between local and global analyses?",
+          "options": [
+            "Local analyses are performed exclusively in the Cloud, while global analyses are done at the edge devices",
+            "Local and global analyses are performed only in the Cloud data centers",
+            "Local analyses are performed at the edge devices, and global analyses can be either performed at the edge or forwarded to the Cloud",
+            "Local analyses are conducted by IoT devices, and global analyses are not necessary in fog computing"
+          ],
+          "explanation": "Local analyses in fog computing are performed at the edge devices to ensure low latency and quick processing. Global analyses can be either performed at the edge or forwarded to the Cloud for further processing, depending on the system's requirements and resource availability.",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "What is the primary goal of the application placement problem in the Cloud-Fog-Edge framework?",
+          "options": [
+            "To map all applications onto the Cloud servers to maximize computational power",
+            "To find available resources in the network that satisfy application requirements, respect constraints, and optimize the objective, such as minimizing energy consumption",
+            "To place all application components on edge devices to ensure low latency",
+            "To disregard resource capacities and focus solely on network constraints"
+          ],
+          "explanation": "In the Cloud-Fog-Edge framework, application placement involves mapping components onto infrastructure while considering resource (CPU, RAM), network (latency, bandwidth), and application constraints (locality, delay sensitivity). The goal is to meet these constraints and optimize objectives like energy consumption.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "Which of the following is an example of an application constraint in the application placement problem on the Cloud-Fog-Edge framework?",
+          "options": [
+            "Finite capabilities of CPU and RAM on infrastructure nodes",
+            "Network latency and bandwidth limitations",
+            "Locality requirements restricting certain services' executions to specific locations",
+            "Availability of storage resources in the Fog nodes"
+          ],
+          "explanation": "Locality requirements are application constraints that restrict services to specific locations, making them key in application placement.",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "What is the primary purpose of offloading in the context of edge computing?",
+          "options": [
+            "To move all data processing from edge nodes to the cloud",
+            "To augment computing requirements by moving servers, applications, and associated data closer to the network edge",
+            "To reduce the number of user devices connected to the network",
+            "To centralize all computational resources in the cloud for better performance"
+          ],
+          "explanation": "This question highlights the key purpose of offloading, which involves moving servers, applications, and data closer to the network edge to enhance computing capabilities and bring services closer to the data source, improving efficiency and reducing latency.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "What is the primary goal of a cloud federation?",
+          "options": [
+            "To centralize all cloud services under a single provider",
+            "To deploy and manage multiple cloud services to meet business needs by collaborating among different Cloud Service Providers (CSPs)",
+            "To limit the geographical reach of cloud services",
+            "To reduce the number of cloud service providers globally"
+          ],
+          "explanation": "Cloud federation's goal is to efficiently manage and deploy cloud services by collaborating among multiple CSPs. This enhances capacity utilization, interoperability, and service offerings, unlike centralizing services under one provider.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "Which of the following is a key benefit of forming a cloud federation?",
+          "options": [
+            "Centralized control of global cloud services",
+            "Increased resource utilization and load balancing across multiple Cloud Service Providers (CSPs)",
+            "Reduced collaboration among Cloud Service Providers",
+            "Limiting the geographical footprint of Cloud Service Providers"
+          ],
+          "explanation": "A key benefit of cloud federation is maximizing resource utilization and achieving effective load balancing across multiple CSPs, improving efficiency and reliability through shared resources.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "Why is VM migration important in cloud computing environments?",
+          "options": [
+            "To centralize all virtual machines on a single server",
+            "To efficiently distribute VM load across servers, allowing for system maintenance and operational efficiency",
+            "To permanently shut down under-utilized servers",
+            "To increase the number of servers in a data center"
+          ],
+          "explanation": "VM migration is crucial in cloud computing for balancing the workload across servers, enabling maintenance without downtime, and managing operational parameters like power consumption. It allows for dynamic allocation of resources to ensure efficient operation and maintain service quality.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "What is the difference between cold (non-live) and hot (live) VM migration?",
+          "options": [
+            "Cold migration turns off the VM during migration, while hot migration keeps the VM running",
+            "Cold migration keeps the VM running during migration, while hot migration turns off the VM",
+            "Both cold and hot migration suspend the VM during the process",
+            "Cold migration requires more resources than hot migration"
+          ],
+          "explanation": "Cold (non-live) migration involves turning off or suspending the VM during the migration process, whereas hot (live) migration allows the VM to continue running and providing services while being migrated.",
+          "correctAnswer": [0]
+        },
+        {
+          "question": "Which of the following approaches are commonly used in live VM migration?",
+          "options": [
+            "Cold-copy and Hot-copy",
+            "Pre-copy and Post-copy",
+            "Suspend-copy and Resume-copy",
+            "Start-copy and End-copy"
+          ],
+          "explanation": "In live VM migration, the two main approaches are pre-copy, where the VM's memory pages are copied to the destination before the VM is transferred, and post-copy, where the VM is first transferred to the destination, and then its memory pages are copied over as needed. These methods help minimize downtime during the migration process.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "Which of the following is a primary concern during VM migration to ensure service continuity?",
+          "options": [
+            "Maximizing downtime and total migration time",
+            "Minimizing both downtime and total migration time, and avoiding unnecessary disruption of active services",
+            "Allowing resource contention with the migrating OS to speed up the process",
+            "Ensuring that the migration process takes as long as possible to ensure stability"
+          ],
+          "explanation": "During VM migration, it's crucial to minimize both the downtime (time services are unavailable) and the total migration time (time to complete the migration). Additionally, the process should avoid disrupting active services by managing resource contention effectively.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "Which phase of live VM migration involves suspending the execution of the VM at the source and copying the remaining dirty pages and CPU state to the destination?",
+          "options": [
+            "Pre-Copy Phase",
+            "Post-Copy Phase",
+            "Stop-and-Copy Phase",
+            "On-Demand Copy Phase"
+          ],
+          "explanation": "In the Stop-and-Copy Phase of live VM migration, the VM's execution is suspended at the source, and the remaining dirty pages along with the CPU state are copied to the destination before resuming the VM.",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "What is the primary advantage of the post-copy live memory migration strategy?",
+          "options": [
+            "It avoids copying any memory pages from the source to the destination",
+            "It ensures that memory pages are only copied on demand, potentially reducing unnecessary data transfer",
+            "It copies all memory pages before stopping the VM at the source",
+            "It immediately restarts the VM at the source after copying the CPU state"
+          ],
+          "explanation": "Post-copy live memory migration copies memory pages only when they are needed by the VM at the destination, reducing the amount of unnecessary data transfer compared to other strategies.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "Which of the following is NOT a requirement for live VM migration?",
+          "options": [
+            "Load balancing",
+            "Fault tolerance",
+            "Power management",
+            "Data replication"
+          ],
+          "explanation": "Live VM migration involves requirements such as load balancing, fault tolerance, power management, and resource sharing to ensure seamless operation and system maintenance. Data replication is not a specific requirement for live VM migration.",
+          "correctAnswer": [3]
+        },
+        {
+          "question": "In serial VM migration, what happens to the remaining VMs when the first VM enters the stop-and-copy phase?", 
+          "options": [
+            "They continue to provide services",
+            "They are suspended to prevent memory dirtying",
+            "They start their pre-copy cycle",
+            "They are migrated simultaneously"
+          ],
+          "explanation": "In serial VM migration, when the first VM enters the stop-and-copy phase, the remaining VMs are suspended to prevent them from dirtying memory, ensuring a smooth migration process.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "What is a key advantage of using containers in cloud computing?",
+          "options": [
+            "Containers virtualize the hardware to run multiple operating systems",
+            "Containers are heavyweight virtual machines with extensive resource requirements",
+            "Containers package code and dependencies, allowing applications to run consistently across different environments",
+            "Containers require specific hardware configurations to function properly"
+          ],
+          "explanation": "Containers are lightweight virtualization techniques that package application code along with all its dependencies, enabling consistent performance across various computing environments.",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "What is the main function of a Docker container image?",
+          "options": [
+            "To create a virtual machine with its own operating system",
+            "To package an application along with its code, runtime, system tools, libraries, and settings",
+            "To manage physical hardware resources for applications",
+            "To execute applications directly on the host operating system without isolation"
+          ],
+          "explanation": "A Docker container image is a lightweight, standalone package that includes everything needed to run an application, such as code, runtime, system tools, libraries, and settings, ensuring consistent operation across different environments.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "What are the different aspects of CPS?",
+          "options": [
+            "Cyber, physical, and communication only",
+            "Cyber, dynamics, and safety only",
+            "Cyber, physical, computation, dynamics, communication, security, and safety",
+            "Cyber, physical, and computation only"
+          ],
+          "explanation": "The different aspects of CPS include cyber, physical, computation, dynamics, communication, security, and safety.",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "What is the benefit of 5G's ability to scale down in data rates, power, and mobility for IoT devices?",
+          "options": [
+            "It allows for faster data rates and lower latency",
+            "It provides extremely lean and low-cost connectivity solutions",
+            "It enables immersive experiences like VR and AR",
+            "It provides ultra-reliable, low-latency links for mission-critical communications"
+          ],
+          "explanation": "5G is meant to seamlessly connect a massive number of embedded sensors in virtually everything through the ability to scale down in data rates, power, and mobility—providing extremely lean and low‐cost connectivity solutions",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "Fog-Edge computing leads to increased network congestion",
+          "options": [
+            "True",
+            "False"
+          ],
+          "explanation": "Fog-Edge computing leads to less network congestion",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "What is(are) the key feature(s) of Mobile Cloud computing for 5G networks?",
+          "options": [
+            "Sharing resources for mobile applications",
+            "Improved reliability due to data storage in the cloud",
+            "Increased resource consumption by mobile applications",
+            "None of these"
+          ],
+          "explanation": "Key features of MCC for 5G networks include sharing resources for mobile applications and improved reliability as data is backed up and stored in the cloud.",
+          "correctAnswer": [0, 1]
+        },
+        {
+          "question": "Mobility Analytics utilizes the cloud platform for computation and storage.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "explanation": "Mobility Analytics utilizes a Cloud platform for computation and storage.",
+          "correctAnswer": [0]
+        },
+        {
+          "question": "In which computing environment is latency fixed due to the location of application modules at the Area Gateway?",
+          "options": [
+            "Fog computing",
+            "Cloud computing",
+            "Serverless Computing",
+            "None of the above"
+          ],
+          "explanation": "In fog computing environment is latency fixed due to the location of application modules at the Area Gateway",
+          "correctAnswer": [0]
+        },
+        {
+          "question": "Resource-constrained low-latency devices drive the need of",
+          "options": [
+            "Heterogeneous and distributed computing architectures",
+            "Homogeneous and distributed computing architectures",
+            "Heterogeneous and parallel computing architectures",
+            "Homogeneous and parallel computing architectures"
+          ],
+          "explanation": "On‐premises and edge data centers will continue to close the gap between resource‐constrained low‐latency devices and distant cloud data centers, leading to driving the need for heterogeneous and distributed computing architectures.",
+          "correctAnswer": [0]
+        },
+        {
+          "question": "Customized wearable devices for collecting health parameters are the best examples of",
+          "options": [
+            "IoHT",
+            "Fog device",
+            "Fog-Cloud interfaced",
+            "Cloud-Fog-Edge-IoHT"
+          ],
+          "explanation": "Customized wearable devices for collecting health parameters are the best examples of Cloud-Fog-Edge-IoHT.",
+          "correctAnswer": [3]
+        },
+        {
+          "question": "The cyber-physical system involves transdisciplinary approaches, merging the theory of cybernetics, mechatronics, design, and process science.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "explanation": "The cyber-physical system involves transdisciplinary approaches, merging the theory of cybernetics, mechatronics, design, and process science.",
+          "correctAnswer": [0]
+        },
+        {
+          "question": "According to the given definition, which of the following statement(s) is (are) true about dew computing?",
+          "options": [
+            "Dew computing is a cloud computing paradigm where all computing is done on the cloud without any reliance on on-premises computers",
+            "Dew computing is a paradigm where on-premises computers provide functionality that is dependent on cloud services",
+            "Dew computing is a paradigm where on-premises computers and cloud services are completely isolated from each other and do not collaborate in any way",
+            "Dew computing is a paradigm where on-premises computers provide functionality that is independent of cloud services and is also collaborative with cloud services"
+          ],
+          "explanation": "According to the definition given, dew computing is a paradigm where on-premises computers provide functionality that is independent of cloud services and is also collaborative with cloud services.",
+          "correctAnswer": [3]
+        },
+        {
+          "question": "Which of the following best describes the key features of dew computing?",
+          "options": [
+            "Independence and collaboration",
+            "Independence and centralization",
+            "Collaboration and decentralization",
+            "Connectivity and scalability"
+          ],
+          "explanation": "The correct answer is Independence and collaboration because these are the core principles of dew computing, allowing local devices to operate autonomously while still connecting to the cloud for data synchronization when needed.",
+          "correctAnswer": [0]
+        },
+        {
+          "question": "Which of the following best describes serverless computing?",
+          "options": [
+            "Developers manage scalability and orchestration of containers",
+            "Developers run their logic as functions, and the cloud provider manages scalability",
+            "Developers handle all containerization and runtime environments",
+            "Developers run their applications directly on dedicated servers"
+          ],
+          "explanation": "The correct answer is 'Developers run their logic as functions, and the cloud provider manages scalability' because serverless computing allows developers to submit their code as functions without worrying about infrastructure. The cloud provider automatically handles the scaling and orchestration, enabling efficient parallel execution of tasks without the need for manual container management.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "Which of the following best describes Function-as-a-Service (FaaS)?",
+          "options": [
+            "Functions run continuously and scale vertically",
+            "Functions are triggered by events and executed in isolated environments",
+            "Functions are always active and manage their own scaling",
+            "Functions are large, continuously running parts of an application"
+          ],
+          "explanation": "Function-as-a-Service (FaaS) is an event-driven model where functions are only activated in response to specific triggers, such as client requests or external events. These functions run in isolated environments provided by the FaaS platform, which also handles the horizontal scaling based on the volume of incoming events.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "How does Serverless Computing differ from traditional Cloud Computing?",
+          "options": [
+            "It focuses on system administrators and exposes server management",
+            "It targets programmers by abstracting server management and simplifying development",
+            "It requires developers to handle all operational responsibilities",
+            "It makes cloud software development more complicated"
+          ],
+          "explanation": "Serverless computing removes the need for developers to manage servers, allowing them to focus on writing code. This shift makes cloud development easier and more accessible for programmers, while the cloud provider handles the operational responsibilities.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "What is a key benefit of using AWS Lambda for running code?",
+          "options": [
+            "You need to manage AWS resources and scaling",
+            "You have to focus on operating system management and provisioning",
+            "You upload code and AWS Lambda handles execution and scaling based on events",
+            "You must manually handle event sources and log streams"
+          ],
+          "explanation": "AWS Lambda allows you to focus on writing code while it manages execution, scaling, and resource provisioning based on event triggers, simplifying cloud computing tasks.",
+          "correctAnswer": [2]
+        },
+        {
+          "question": "What does Google Cloud Functions primarily handle in terms of execution environment?",
+          "options": [
+            "Server-based environments with manual provisioning",
+            "Fully managed environments with automatic scaling",
+            "Local environments requiring extensive server management",
+            "Dedicated virtual machines for each function"
+          ],
+          "explanation": "Google Cloud Functions operates in a fully managed environment, meaning developers do not need to provision or manage servers, and the platform automatically handles scaling.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "What is the primary focus of Azure Functions for developers?",
+          "options": [
+            "Managing and maintaining servers",
+            "Writing code and configuring functions",
+            "Handling infrastructure scaling manually",
+            "Deploying compiled languages only"
+          ],
+          "explanation": "Azure Functions allows developers to focus on writing code and configuring functions while it manages server maintenance and scaling.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "What is one major challenge of using renewable energy sources in cloud datacenters?",
+          "options": [
+            "High capital costs and unpredictability",
+            "Increased server maintenance requirements",
+            "Higher energy consumption from non-renewable sources",
+            "Decreased system reliability"
+          ],
+          "explanation": "Renewable energy sources face challenges such as high initial costs and unpredictability in supply, which can impact their implementation in cloud datacenters.",
+          "correctAnswer": [0]
+        },
+        {
+          "question": "What is the primary focus of the power manager component in a sustainable cloud computing datacenter?",
+          "options": [
+            "Controlling the temperature of the datacenter",
+            "Managing the power supply from renewable and grid sources",
+            "Handling virtual machine migrations",
+            "Scheduling workloads to balance energy use"
+          ],
+          "explanation": "The power manager in a sustainable cloud computing datacenter is primarily responsible for managing the power supply, including balancing energy sources from renewables and grid electricity.",
+          "correctAnswer": [1]
+        },
+        {
+          "question": "Which component of sustainable cloud computing aims to balance the temperature in cloud datacenters to enhance energy efficiency?",
+          "options": [
+            "Application Design",
+            "Capacity Planning",
+            "Cooling Management",
+            "Renewable Energy"
+          ],
+          "explanation": "Cooling Management focuses on maintaining the temperature within cloud datacenters to ensure energy efficiency, as excessive heat can increase energy consumption and affect performance.",
+          "correctAnswer": [2]
+        }
+      
     ],
   };
 
