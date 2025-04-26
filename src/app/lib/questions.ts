@@ -3361,7 +3361,757 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
             ],
             "explanation": "If demand is flat, the penalty will be zero.",
             "correctAnswer": [1]
-          }
+          },
+          
+            {
+              "question": "For sensor resources that do not have direct connection to the cloud, sensor network proxy provides the connection.",
+              "options": [
+                "True",
+                "False"
+              ],
+              "explanation": "For sensor resources that do not have direct connection to the cloud, sensor network proxy provides the connection.",
+              "correctAnswer": [0]
+            },
+            {
+              "question": "Docker compose is a tool for defining and running multi-container Docker applications.",
+              "options": [
+                "True",
+                "False"
+              ],
+              "explanation": "Docker compose is a tool for defining and running multi-container Docker applications.",
+              "correctAnswer": [0]
+            },
+            {
+              "question": "What does \"ps\" signify as per Container terminology?",
+              "options": [
+                "List of all containers",
+                "List of all running containers",
+                "List of all stopped containers",
+                "List of all warm containers"
+              ],
+              "explanation": "ps: list all running containers; ps -a: list all containers (including stopped).",
+              "correctAnswer": [1]
+            },
+            {
+              "question": "Statement 1: Sensor-Cloud proxy exposes sensor resources as cloud services. Statement 2: Sensor network is still managed from the Sensor-Cloud Interface via Sensor Network Proxy",
+              "options": [
+                "Statement 1 is True and Statement 2 is False",
+                "Statement 2 is True and Statement 1 is False",
+                "Both statements are True",
+                "Both statements are False"
+              ],
+              "explanation": "Sensor cloud proxy exposes sensor resources as cloud services. Sensor network is still managed from the Sensor-Cloud Interface via Sensor Network Proxy.",
+              "correctAnswer": [2]
+            },
+            {
+              "question": "Choose the most appropriate option. Statement 1: An image is a lightweight, stand-alone, executable package that includes everything to run a piece of software. Statement 2: Container is a run time instance of an image.",
+              "options": [
+                "Statement 1 is correct but Statement 2 is incorrect",
+                "Statement 2 is correct but Statement 1 is incorrect",
+                "Both the statements are correct",
+                "Both the statements are incorrect."
+              ],
+              "explanation": "Both statements are correct. An image is a lightweight, stand-alone, executable package that includes everything to run a piece of software, and a container is a runtime instance of an image.",
+              "correctAnswer": [2]
+            },
+            {
+              "question": "Sensor data can be easily shared by different groups of users without any extra effort/measure.",
+              "options": [
+                "True",
+                "False"
+              ],
+              "explanation": "One of the limitations of Sensor Networks is \"Sensor data can not be easily shared by different groups of users.\"",
+              "correctAnswer": [1]
+            },
+            {
+              "question": "An IoT platform's basic building blocks is/are (choose the correct option(s)).",
+              "options": [
+                "Gateway",
+                "Images",
+                "Network and Cloud",
+                "Containers"
+              ],
+              "explanation": "An IoT platform has three basic building blocks: Things, Gateway, and Network and Cloud.",
+              "correctAnswer": [0, 2]
+            },
+            {
+              "question": "Docker rmi is used to delete a local _________",
+              "options": [
+                "image",
+                "container",
+                "volume",
+                "node"
+              ],
+              "explanation": "Docker rmi is used to delete a local image.",
+              "correctAnswer": [0]
+            },
+            {
+              "question": "In the context of Green Cloud Computing, the Power Usage Effectiveness is defined as",
+              "options": [
+                "Power Delivered / Overall Power",
+                "Overall Power / Power Delivered",
+                "Overall Power * Power Delivered",
+                "None of these"
+              ],
+              "explanation": "In the context of Green Cloud Computing, the Power Usage Effectiveness is defined as Overall Power / Power Delivered.",
+              "correctAnswer": [1]
+            },
+            {
+              "question": "Vehicles providing their networking and data processing capabilities to other vehicles through the cloud come under which service of IoT-based Vehicular Data Clouds.",
+              "options": [
+                "SaaS",
+                "PaaS",
+                "IaaS",
+                "None of these"
+              ],
+              "explanation": "Vehicles provide their networking and data processing capabilities to other vehicles through the cloud comes under the Networking and Data processing as a service (IaaS) of IoT-based Vehicular Data Clouds.",
+              "correctAnswer": [2]
+            }
+          ,
+            {
+              "question": "Fog Computing is applicable in",
+              "options": [
+                "Smart Grid",
+                "Smart Traffic Light",
+                "Connected Vehicles",
+                "None of the above"
+              ],
+              "explanation": "Fog computing is implemented in Smart Grid, Smart Traffic Light, and Connected Vehicles.",
+              "correctAnswer": [0, 1, 2]
+            },
+            {
+              "question": "Fog Computing has ________ probability to attack on data enrouter and required ________ number of server nodes than Cloud Computing.",
+              "options": [
+                "lower, less",
+                "lower, large",
+                "higher, less",
+                "higher, large"
+              ],
+              "explanation": "Fog Computing has a lower probability to attack on data enrouter and required a large number of server nodes than Cloud Computing.",
+              "correctAnswer": [1]
+            },
+            {
+              "question": "Consider the following statements: Statement 1: In Geospatial Cloud, it is needed to integrate data from heterogeneous back-end data service. Statement 2: Data services can be inside and/or outside of the cloud environment in Geospatial Cloud.",
+              "options": [
+                "Statement 1 is Correct, but Statement 2 is Incorrect.",
+                "Statement 2 is Correct, but Statement 1 is Incorrect.",
+                "Both statements are Correct.",
+                "Both statements are Incorrect"
+              ],
+              "explanation": "Both statements are correct regarding Geospatial Cloud concept.",
+              "correctAnswer": [2]
+            },
+            {
+              "question": "Which of the following is/are the challenge(s) of the Geospatial Cloud?",
+              "options": [
+                "Scaling of Spatial Databases",
+                "Policy management among the tenants",
+                "Implementation of Spatial Databases",
+                "None of the above"
+              ],
+              "explanation": "Challenges of Geospatial Cloud are: Implementation of Spatial Databases, Scaling of Spatial Databases, and Policy management among the tenants.",
+              "correctAnswer": [0, 1, 2]
+            },
+            {
+              "question": "Which of the following is/are feature(s) of Mobile Cloud Computing?",
+              "options": [
+                "Uses less mobile device resources because applications are cloud-supported",
+                "Reduces reliability with information backed up and stored in the cloud",
+                "Mobile devices connect to services delivered through an API architecture",
+                "Facilitates slower development, delivery and management of mobile apps"
+              ],
+              "explanation": "Features of Mobile Cloud Computing include using fewer device resources because applications are cloud-supported, and mobile devices connecting to services delivered through an API architecture. It improves reliability (not reduces) and facilitates quicker development (not slower).",
+              "correctAnswer": [0, 2]
+            },
+            {
+              "question": "Which of the following statement(s) is/are FALSE about Fog Computing?",
+              "options": [
+                "Fog nodes present near to the end-user",
+                "Fog computing enables real-time applications",
+                "Fog nodes' response time is much higher than Cloud's",
+                "Network routers, WiFi Gateways will not be capable of running applications"
+              ],
+              "explanation": "Fog nodes' response time is much lower than cloud server's, not higher. Network routers and WiFi Gateways will be capable of running applications, not incapable.",
+              "correctAnswer": [2, 3]
+            },
+            {
+              "question": "Choose the most appropriate option regarding CLOUDLET code offloading. Statement 1: The architecture reduces latency by using a multi-hop network. Statement 2: It potentially lowers battery consumption by using Wi-Fi or short range radio.",
+              "options": [
+                "Statement 1 is correct but Statement 2 is incorrect",
+                "Statement 2 is correct but Statement 1 is incorrect",
+                "Both the statements are correct",
+                "Both the statements are incorrect."
+              ],
+              "explanation": "The architecture reduces latency by using a single-hop network (not multi-hop) and potentially lowers battery consumption by using Wi-Fi or short range radio.",
+              "correctAnswer": [1]
+            },
+            {
+              "question": "Benefits of Fog Computing is/are:",
+              "options": [
+                "Immobility",
+                "Low latency and location-aware.",
+                "Homogeneity",
+                "Widespread geographical distribution."
+              ],
+              "explanation": "Benefits of Fog Computing include low latency and location-awareness, and widespread geographical distribution. Fog computing involves heterogeneity (not homogeneity) and mobility (not immobility).",
+              "correctAnswer": [1, 3]
+            },
+            {
+              "question": "Distance between the client and server in Cloud Computing is of _________ and Fog computing is _______.",
+              "options": [
+                "One Hop, Multiple Hop",
+                "One Hop, One Hop",
+                "Multiple Hop, One Hop",
+                "Multiple Hop, Multiple Hop"
+              ],
+              "explanation": "Distance between the client and server in Cloud Computing is of multiple hops and Fog computing is one hop.",
+              "correctAnswer": [2]
+            },
+            {
+              "question": "Match the following tables related to Mobile Cloud Computing key components: Table – I: 1. Profiler 2. Solver 3. Synchronizer Table – II: i. Collects results of split execution and combine, and make the execution details transparent to the user ii. Monitors application execution to collect data about execution time, power consumption, network traffic iii. The task of selecting which parts of an app runs on mobile and cloud",
+              "options": [
+                "1. -> (ii), 2. -> (iii), 3. -> (i)",
+                "1. -> (iii), 2. -> (i), 3. -> (ii)",
+                "1. -> (i), 2. -> (ii), 3. -> (iii)",
+                "1. -> (ii), 2. -> (i), 3. -> (iii)"
+              ],
+              "explanation": "Profiler monitors application execution to collect data about the time to execute, power consumption, network traffic. Solver has the task of selecting which parts of an app runs on mobile and cloud. Task of synchronizer modules is to collect results of split execution and combine, and make the execution details transparent to the user.",
+              "correctAnswer": [0]
+            }
+          ,
+            {
+              "question": "Interception is an attack on:",
+              "options": [
+                "Integrity",
+                "Availability",
+                "Confidentiality",
+                "Authenticity"
+              ],
+              "explanation": "Interception is an attack on confidentiality.",
+              "correctAnswer": [2]
+            },
+            {
+              "question": "Which of the following is/are the recovery goal(s) of the security mechanism?",
+              "options": [
+                "Stop attack, assess and repair damage",
+                "Detect attackers' violation of security policy",
+                "Prevent attackers from violating security policy",
+                "Continue to function correctly even if attack succeeds"
+              ],
+              "explanation": "The recovery goals of security mechanisms include stopping the attack, assessing and repairing damage, and continuing to function correctly even if the attack succeeds.",
+              "correctAnswer": [0, 3]
+            },
+            {
+              "question": "Replay attack, which is the passive capture of a data unit and its subsequent retransmission to produce an unauthorized effect, is an active attack.",
+              "options": [
+                "True",
+                "False"
+              ],
+              "explanation": "Replay attack is an active attack.",
+              "correctAnswer": [0]
+            },
+            {
+              "question": "Statement I: Authorization is the identification of legitimate users. Statement II: Integrity is the protection against data alteration/corruption.",
+              "options": [
+                "Statement I is TRUE and statement II is FALSE.",
+                "Statement I is FALSE and statement II is TRUE.",
+                "Both statements are TRUE.",
+                "Both statements are FALSE."
+              ],
+              "explanation": "Authorization is the determination of whether or not an operation is allowed by a certain user, not the identification of legitimate users. Integrity is the protection against data alteration/corruption.",
+              "correctAnswer": [1]
+            },
+            {
+              "question": "Which of the following is/are NOT passive attacks?",
+              "options": [
+                "Masquerade",
+                "Release of message contents",
+                "Denial of service",
+                "Modification"
+              ],
+              "explanation": "Only release of message contents is a passive attack. Masquerade, denial of service, and modification are active attacks.",
+              "correctAnswer": [0, 2, 3]
+            },
+            {
+              "question": "In full virtualization, VMs interact with the host OS.",
+              "options": [
+                "True",
+                "False"
+              ],
+              "explanation": "In full virtualization, VMs run on hypervisor that interacts with the hardware, not with the host OS.",
+              "correctAnswer": [1]
+            },
+            {
+              "question": "When selecting the most suitable cloud provider satisfying customer's QoS requirements using a fuzzy inference engine, if the \"Degree of SLA Satisfaction\" is greater than the \"Threshold for a cloud service provider\", the customer should migrate to a different provider.",
+              "options": [
+                "True",
+                "False"
+              ],
+              "explanation": "Migration should be done when Degree of SLA Satisfaction < Threshold, not when it's greater.",
+              "correctAnswer": [1]
+            },
+            {
+              "question": "Which of the following Open-source tools is/are used to perform TCP connect probes in Amazon EC2 platform?",
+              "options": [
+                "wget",
+                "nmap",
+                "ifconfig",
+                "hping"
+              ],
+              "explanation": "nmap is an open-source tool which is used to perform TCP connect probes (attempt to complete a 3-way hand-shake between a source and target) in Amazon EC2.",
+              "correctAnswer": [1]
+            },
+            {
+              "question": "Statement I: Recovery Point Objective (RPO) is the maximum amount of data that will be lost following an interruption or disaster. Statement II: Recovery Time Objective (RTO) is the amount of data that will be lost following an interruption or disaster.",
+              "options": [
+                "Statement I is TRUE and statement II is FALSE.",
+                "Statement I is FALSE and statement II is TRUE.",
+                "Both statements are TRUE.",
+                "Both statements are FALSE."
+              ],
+              "explanation": "Recovery Point Objective (RPO) is the maximum amount of data that will be lost following an interruption or disaster. Recovery Time Objective (RTO) is the period of time allowed for recovery i.e., the time that is allowed to elapse between the disaster and the activation of the secondary site.",
+              "correctAnswer": [0]
+            },
+            {
+              "question": "List the motivation(s) in having a 'middle man' or intelligent broker for cloud marketplace:",
+              "options": [
+                "Trustworthiness of the provider.",
+                "Monitoring of services.",
+                "Ensuring vendor lock-in.",
+                "Flexible selection of cloud provider."
+              ],
+              "explanation": "Motivations for having a broker in cloud marketplace include trustworthiness of the provider, monitoring of services, and flexible selection of cloud provider. Ensuring vendor lock-in is not a motivation.",
+              "correctAnswer": [0, 1, 3]
+            }
+          ,
+          
+            {
+              "question": "Fog computing is a model in which data, processing and applications are concentrated in devices at the __________ rather than existing almost entirely in the cloud.",
+              "options": [
+                "fog",
+                "local node",
+                "network station",
+                "network edge"
+              ],
+              "explanation": "Fog computing is a model in which data, processing and applications are concentrated in devices at the network edge rather than existing almost entirely in the cloud.",
+              "correctAnswer": [3]
+            },
+            {
+              "question": "In the Cloud-Fog-Edge Computing paradigm, sensors being end devices, can perform basic data processing",
+              "options": [
+                "True",
+                "False"
+              ],
+              "explanation": "In the Cloud-Fog-Edge Computing paradigm, sensors being end devices, are able to perform basic data processing.",
+              "correctAnswer": [0]
+            },
+            {
+              "question": "What is(are) the benefit(s) of Fog computing?",
+              "options": [
+                "Provides less data location-awareness",
+                "Increases network congestion",
+                "Causes lesser latency permits usage in real-time applications",
+                "None of these"
+              ],
+              "explanation": "Fog always decreases latency permits in real-time applications.",
+              "correctAnswer": [2]
+            },
+            {
+              "question": "The ___________ used for resource management in fog/edge computing are classified on the basis of data flow, control and tenancy.",
+              "options": [
+                "Algorithms",
+                "Architectures",
+                "Hardware",
+                "Infrastructure"
+              ],
+              "explanation": "The architectures used for resource management in fog/edge computing is classified based on data flow, control, and tenancy.",
+              "correctAnswer": [1]
+            },
+            {
+              "question": "Virtualization software is an example of __________.",
+              "options": [
+                "Application software",
+                "Middleware",
+                "System software",
+                "Benchmarking"
+              ],
+              "explanation": "Virtualization software is an example of System software.",
+              "correctAnswer": [2]
+            },
+            {
+              "question": "Fog infrastructure consists of IoT devices, Fog Nodes, and at least one Cloud Data Center never ensures scalability",
+              "options": [
+                "True",
+                "False"
+              ],
+              "explanation": "Scalability is one of the characteristics of fog computing.",
+              "correctAnswer": [1]
+            },
+            {
+              "question": "What is(are) the application placement constraint(s) for fog nodes?",
+              "options": [
+                "Network constraints",
+                "Interoperability",
+                "Resource constraints",
+                "None of these"
+              ],
+              "explanation": "Network constraints (such as latency, bandwidth, etc.) and Resource constraints (infrastructure node is limited by finite capabilities in terms of CPU, RAM, storage, bandwidth, etc.) are application placement constraints for fog nodes.",
+              "correctAnswer": [0, 2]
+            },
+            {
+              "question": "Cloud Federation should prefer maximum geographical separation.",
+              "options": [
+                "True",
+                "False"
+              ],
+              "explanation": "Cloud Federation should prefer maximum geographical separation.",
+              "correctAnswer": [0]
+            },
+            {
+              "question": "Benefit(s) of cloud federation is(are)",
+              "options": [
+                "Global Utility",
+                "Resource utilization minimization",
+                "Power consumption maximization",
+                "All of these"
+              ],
+              "explanation": "Benefits of cloud federation include Global utility, maximizing resource utilization, and minimizing power consumption (not maximizing).",
+              "correctAnswer": [0]
+            },
+            {
+              "question": "A CSP has little or no control over remote resources in case of",
+              "options": [
+                "Tightly Coupled Federation",
+                "Medium Coupled Federation",
+                "Loosely Coupled Federation",
+                "None of these"
+              ],
+              "explanation": "In loosely coupled federation, a CSP has little or no control over remote resources (for example, decisions about VM placement are not allowed), monitoring information is limited (for example, only CPU, memory, or disk consumption of each VM is reported), and there is no support for advanced features such as cross‐site networks or VM migration.",
+              "correctAnswer": [2]
+            },
+            
+              {
+                "question": "_________are an important distribution mechanism for libraries and custom runtimes in AWS serverless ecosystem.",
+                "options": [
+                  "Runtimes",
+                  "Lambda Layers",
+                  "Log streams",
+                  "None of these"
+                ],
+                "explanation": "Lambda layers are an important distribution mechanism for libraries, custom runtimes and other imp function dependencies in AWS serverless ecosystem.",
+                "correctAnswer": [1]
+              },
+              {
+                "question": "______________ is a fully managed proprietary NoSQL database service that supports key–value and document data structures.",
+                "options": [
+                  "Amazon DynamoDB",
+                  "AWS S3",
+                  "AWS Lambda",
+                  "Amazon EFS"
+                ],
+                "explanation": "Amazon DynamoDB is a fully managed proprietary NoSQL database service that supports key–value and document data structures and is offered by Amazon.com as part of the Amazon Web Services portfolio. Whereas, Amazon S3 is a simple storage service.",
+                "correctAnswer": [0]
+              },
+              {
+                "question": "Which component(s) of CDCs contribute(s) to consumption of huge amount of energy?",
+                "options": [
+                  "Network",
+                  "Storage",
+                  "Memory",
+                  "Cooling system"
+                ],
+                "explanation": "All of these components mentioned are responsible for consumption of energy in CDCs.",
+                "correctAnswer": [0, 1, 2, 3]
+              },
+              {
+                "question": "Serverless covers a wide range of technologies that can be grouped into two categories",
+                "options": [
+                  "BaaS and YaaS",
+                  "FaaS and BaaS",
+                  "FaaS and YaaS",
+                  "None of these"
+                ],
+                "explanation": "Serverless covers a wide range of technologies that can be grouped into two categories FaaS and BaaS.",
+                "correctAnswer": [1]
+              },
+              {
+                "question": "Runtimes allows you to annotate your function code with custom logging statements which helps you to analyse the execution flow and performance of your AWS Lambda functions.",
+                "options": [
+                  "True",
+                  "False"
+                ],
+                "explanation": "Log stream allows you to annotate your function code with custom logging statements which helps you to analyse the execution flow and performance of your AWS Lambda functions, not Runtimes.",
+                "correctAnswer": [1]
+              },
+              {
+                "question": "Which of the following is not a category of a research initiative on sustainable cloud computing?",
+                "options": [
+                  "Renewable Energy",
+                  "Capacity planning",
+                  "Environment Sandboxing",
+                  "None of these"
+                ],
+                "explanation": "Environment Sandboxing is not a category of research initiative on sustainable cloud computing. Renewable Energy and Capacity planning are.",
+                "correctAnswer": [2]
+              },
+              {
+                "question": "VMs can be migrated to a remote CDC to balance the load effectively as per sustainable cloud computing model.",
+                "options": [
+                  "True",
+                  "False"
+                ],
+                "explanation": "VMs and workloads can be migrated to a remote CDC to balance the load effectively as per sustainable cloud computing model.",
+                "correctAnswer": [0]
+              },
+              {
+                "question": "The focus of cloud computing was _________ and the serverless is __________.",
+                "options": [
+                  "programmers, system administrators",
+                  "system administrators, programmers"
+                ],
+                "explanation": "The focus of cloud computing was system administrators and the serverless is programmers.",
+                "correctAnswer": [1]
+              },
+              {
+                "question": "In Google Cloud Functions, the code executes in a fully managed environment.",
+                "options": [
+                  "True",
+                  "False"
+                ],
+                "explanation": "In Google Cloud Function, the code executes in a fully managed environment. There is no need to provision any infrastructure.",
+                "correctAnswer": [0]
+              },
+              {
+                "question": "Which of the following is/are the goal of sustainable cloud computing? Choose appropriate option(s).",
+                "options": [
+                  "Minimizing the energy consumption.",
+                  "Increasing reliability of CDCs.",
+                  "Maximizing carbon footprint related cost.",
+                  "Increasing network traffic"
+                ],
+                "explanation": "Focus on minimizing the energy consumption and carbon footprint and ensuring reliability of CDCs is the goal of sustainable cloud computing.",
+                "correctAnswer": [0, 1]
+              }
+            ,
+              {
+                "question": "Post-copy and Pre-copy migration approaches are followed in:",
+                "options": [
+                  "Live Migration process",
+                  "Non-live Migration process",
+                  "Hybrid Migration process",
+                  "None of these"
+                ],
+                "explanation": "Both Post-copy and Pre-copy are approaches for the live migration process.",
+                "correctAnswer": [0]
+              },
+              {
+                "question": "Private Docker registry is a service that stores Docker images.",
+                "options": [
+                  "True",
+                  "False"
+                ],
+                "explanation": "Private Docker registry is a service that stores Docker images. Moreover, Docker on the host machine is split into two parts- a daemon with RESTful API and a client who talks with the daemon.",
+                "correctAnswer": [0]
+              },
+              {
+                "question": "What is(are) the key advantage(s) of Docker?",
+                "options": [
+                  "Facilitating microservices",
+                  "Modeling networks.",
+                  "Packaging software",
+                  "None of these"
+                ],
+                "explanation": "Facilitating microservices, packaging software, and modeling networks for initiating multiple isolated containers on a single machine, are the key advantages of Docker.",
+                "correctAnswer": [0, 1, 2]
+              },
+              {
+                "question": "Which of the following statement is most appropriate about Docker?",
+                "options": [
+                  "Docker is a platform that allows to build and run but not ship apps.",
+                  "Docker is a platform that allows to build and ship but but not to run apps.",
+                  "Docker is a platform that allows to build, ship and, run apps.",
+                  "Docker is a platform that only allows to ship and run but not to build apps."
+                ],
+                "explanation": "Docker is a platform that allows to build, ship and, run any app anywhere.",
+                "correctAnswer": [2]
+              },
+              {
+                "question": "A Kubernetes cluster consists of set of worker machines, called _________.",
+                "options": [
+                  "Pods",
+                  "Nodes",
+                  "Control plane",
+                  "Centers"
+                ],
+                "explanation": "A Kubernetes cluster consists of set of worker machines, called nodes.",
+                "correctAnswer": [1]
+              },
+              {
+                "question": "Docker builds are more reproducible and and replicable than traditional software building methods.",
+                "options": [
+                  "True",
+                  "False"
+                ],
+                "explanation": "Docker builds are more reproducible and and replicable than traditional software building methods. This makes implementing CD much easier.",
+                "correctAnswer": [0]
+              },
+              {
+                "question": "Containers are similar to VMs but they have unrelaxed isolation properties to share the operating system among the applications.",
+                "options": [
+                  "True",
+                  "False"
+                ],
+                "explanation": "Containers are similar to VMs but they have relaxed isolation properties to share operating system among the applications. Therefore, containers are considered lightweight.",
+                "correctAnswer": [1]
+              },
+              {
+                "question": "In Docker utility, ___________ is a collection of filesystem layers and some metadata that, if taken together, can be spun up as Docker containers.",
+                "options": [
+                  "Operating System",
+                  "Microservice",
+                  "Virtual Machine",
+                  "Image"
+                ],
+                "explanation": "In Docker utility, an image is a collection of filesystem layers and some metadata which if taken together, they can be spun up as Docker containers.",
+                "correctAnswer": [3]
+              },
+              {
+                "question": "With VM memory size of 1024 GB and the transmission rate to be 16 MB/sec What is the total migration time? Choose the closest correct option.",
+                "options": [
+                  "32 hours",
+                  "18 hours",
+                  "26 hours",
+                  "24 hours"
+                ],
+                "explanation": "Total Migration time = VM memory size/transmission rate = (1024x2^30)/(16x2^20) = 65536 secs = 18 hours.",
+                "correctAnswer": [1]
+              },
+              {
+                "question": "Choose the most appropriate option. Statement 1: Container is a lightweight virtualization technique. Statement 2: Container contains the code and all its dependencies.",
+                "options": [
+                  "Only statement 1 is true",
+                  "Only statement 2 is true",
+                  "Both statement 1 and 2 are true",
+                  "Bothe the statements are false"
+                ],
+                "explanation": "Container is a lightweight virtualization technique. Container contains the code and all its dependecies so the applications run quickly.",
+                "correctAnswer": [2]
+              },
+
+  {
+    "question": "What is the purpose of 5G wireless technology?",
+    "options": [
+      "Deliver lower data speeds",
+      "Deliver higher data speeds",
+      "Decrease network capacity",
+      "Decrease availability"
+    ],
+    "explanation": "5G wireless technology is meant to deliver higher multi‐Gbps peak data speeds, ultra-low latency, more reliability, massive network capacity, increased availability, and a more uniform user experience to more users.",
+    "correctAnswer": [1]
+  },
+  {
+    "question": "What is the benefit of 5G's ability to scale down in data rates, power, and mobility for IoT devices?",
+    "options": [
+      "It provides extremely lean and low-cost connectivity solutions",
+      "It allows for faster data rates and lower latency",
+      "It enables immersive experiences like VR and AR",
+      "It provides ultra-reliable, low-latency links for mission-critical communications."
+    ],
+    "explanation": "5G is meant to seamlessly connect a massive number of embedded sensors in virtually everything through the ability to scale down in data rates, power, and mobility—providing extremely lean and low‐cost connectivity solutions.",
+    "correctAnswer": [0]
+  },
+  {
+    "question": "How are mobile devices connected to mobile networks in Mobile Cloud Computing?",
+    "options": [
+      "Through cloud storage servers",
+      "Through remote access protocols",
+      "Through base stations such as base transceiver station, access point, or satellite",
+      "Through peer-to-peer connections"
+    ],
+    "explanation": "Mobile devices are connected to mobile networks via base stations (e.g., base transceiver station, access point, or satellite).",
+    "correctAnswer": [2]
+  },
+  {
+    "question": "What drives the need for heterogeneous and distributed computing architectures?",
+    "options": [
+      "Resource-constrained low-latency devices",
+      "Distant cloud data centres",
+      "High-speed internet connections",
+      "Availability of low-cost computing devices"
+    ],
+    "explanation": "On‐premises and edge data centers will continue to close the gap between resource‐constrained low‐latency devices and distant cloud data centers, leading to driving the need for heterogeneous and distributed computing architectures.",
+    "correctAnswer": [0]
+  },
+  {
+    "question": "What are the different aspects of CPS?",
+    "options": [
+      "Cyber, physical, and communication only",
+      "Cyber, dynamics, and safety only",
+      "Cyber, physical, and computation only",
+      "Cyber, physical, computation, dynamics, communication, security, and safety"
+    ],
+    "explanation": "The aspects of CPS include cyber, physical, computation, dynamics, communication, security, and safety.",
+    "correctAnswer": [3]
+  },
+  {
+    "question": "What role will service orchestration play in the future of industrial applications?",
+    "options": [
+      "It will limit the interaction of industrial applications with network resources",
+      "It will not influence traffic routing for industrial applications.",
+      "It will enable industrial applications to interact with the network resources in advanced ways.",
+      "It will not select the location and quality of service for industrial applications."
+    ],
+    "explanation": "Service orchestration will play a key role moving forward, enabling industrial applications to interact with the network resources in advanced ways such as selecting location, quality of service, or influencing the traffic routing to deliver on application demands.",
+    "correctAnswer": [2]
+  },
+  
+    {
+      "question": "What is the purpose of spatial analysis?",
+      "options": [
+        "To study the characteristics of people and their behaviors",
+        "To study the characteristics of places and regions and their relationships",
+        "To analyze financial data and make investment decisions",
+        "To create maps of the physical world"
+      ],
+      "explanation": "Spatial analysis is an attempt to solve location‐oriented problems and gain a better understanding of where and what is occurring in the surrounding world or region. It goes beyond mapping to study the characteristics of places/regions and the relationships between them.",
+      "correctAnswer": [1]
+    },
+    {
+      "question": "How is the signal obtained from the accelerometer data for activity detection?",
+      "options": [
+        "By calculating the square root of the x-axis, y-axis, and z-axis signals",
+        "By averaging the x-axis, y-axis, and z-axis signals",
+        "By subtracting the x-axis, y-axis, and z-axis signals",
+        "By multiplying the x-axis, y-axis, and z-axis signals"
+      ],
+      "explanation": "The collected data has three components: x-axis, y-axis, and z-axis. The magnitude of the signal A is calculated using the formula A = sqrt(x*x + y*y + z*z).",
+      "correctAnswer": [0]
+    },
+    {
+      "question": "According to the given definition, which of the following statement(s) is (are) true about dew computing?",
+      "options": [
+        "Dew computing is a cloud computing paradigm where all computing is done on the cloud without any reliance on on-premises computers.",
+        "Dew computing is a paradigm where on-premises computers provide functionality that is dependent on cloud services.",
+        "Dew computing is a paradigm where on-premises computers and cloud services are completely isolated from each other and do not collaborate in any way.",
+        "Dew computing is a paradigm where on-premises computers provide functionality that is independent of cloud services and is also collaborative with cloud services."
+      ],
+      "explanation": "According to the definition given, dew computing is a paradigm where on-premises computers provide functionality that is independent of cloud services and is also collaborative with cloud services.",
+      "correctAnswer": [3]
+    },
+    {
+      "question": "According to the given objectives, which of the following statement(s) is (are) true about the proposed health model?",
+      "options": [
+        "The health model is designed for cloud computing and does not make use of fog or edge computing.",
+        "The health model is designed for edge computing only and does not make use of cloud or fog computing.",
+        "The health model is designed for fog-edge computing and aims to reduce latency, network usage and cost incurred in the cloud.",
+        "The health model is designed for dew computing and does not make use of cloud, fog, or edge computing."
+      ],
+      "explanation": "According to the given objectives, the health model is designed for fog-edge computing and aims to reduce latency, network usage and cost incurred in the cloud.",
+      "correctAnswer": [2]
+    }
+    
+            
+          
     ],
   };
 
