@@ -759,18 +759,18 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
     ],
     week7:[
       {
-        "question": "Which of the following options is correct about geographic information?",
+        "question": "Which of the following options is correct about geographic information? Statement 1: Geographic information could be static or dynamic. Statement 2: Geographic information varies in scale. Statement 3: Population of a city/town is a static geographic information.",
         "options": [
           "Statement 1 & 2 are True, but Statement 3 is False.",
           "Statement 2 & 3 are True, but Statement 1 is False.",
-          "Statement 1& 3 are True, but Statement 2 is False.",
+          "Statement 1 & 3 are True, but Statement 2 is False.",
           "All the statements are True."
         ],
         "explanation": "Population of a city is a dynamic geographic information.",
         "correctAnswer": [0]
       },
       {
-        "question": "Which of the following is true about geographical information system? Choose the most appropriate option.",
+        "question": "Which of the following is true about geographical information system?",
         "options": [
           "Variable load of the GIS server needs dynamic scaling of resources.",
           "GIS uses network intensive web services.",
@@ -788,29 +788,29 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
           "High latency",
           "Man-in-the-middle-attack"
         ],
-        "explanation": "Fog results in low latency, which is one of its major benefits. As the computing data is over dispersed edge devices, there may occur issues like Man-in-the-middle-attack.",
+        "explanation": "Fog computing results in low latency. Man-in-the-middle attacks are security challenges, not benefits.",
         "correctAnswer": [2, 3]
       },
       {
-        "question": "Which of the following statements is false about Code offloading using cloudlet?",
+        "question": "Which of the following statements is false about Code offloading using cloudlet? Statement 1: The architecture reduces latency by using multi-hop network. Statement 2: It potentially lowers battery consumption by using short range radio.",
         "options": [
           "Statement 1 is correct but Statement 2 is incorrect",
           "Statement 2 is correct but Statement 1 is incorrect",
           "Both the statements are correct",
-          "Both the statements are incorrect."
+          "Both the statements are incorrect"
         ],
-        "explanation": "The architecture reduces latency by using a single-hop network and potentially lowers battery consumption by using Wi-Fi or short range radio.",
+        "explanation": "Latency is reduced by using a single-hop network.",
         "correctAnswer": [1]
       },
       {
-        "question": "Which of the following are some of the key components of Mobile cloud computing? Choose the most appropriate option.",
+        "question": "Which of the following are some of the key components of Mobile cloud computing?",
         "options": [
           "Solver",
           "Synchronizer",
           "Profiler",
           "All of the above"
         ],
-        "explanation": "Profiler, Solver and Synchronizer are some of the key components of mobile cloud computing.",
+        "explanation": "Profiler, Solver and Synchronizer are key components.",
         "correctAnswer": [3]
       },
       {
@@ -818,10 +818,10 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
         "options": [
           "Intelligence is brought to the cloud from the end users.",
           "Fog computing is used for real-time applications",
-          "Fog nodes' response time is much higher than cloud server",
+          "Fog nodes’ response time is much higher than cloud server",
           "Network routers, WiFi Gateways will not be capable of running applications"
         ],
-        "explanation": "Fog computing brings intelligence to end users from the cloud, Fog computing use for real-time applications, Fog nodes' response time is much lower than cloud server, network routers, WiFi Gateways will be capable of running applications.",
+        "explanation": "Fog computing brings intelligence from cloud to end users; routers/gateways can run apps; fog nodes are faster.",
         "correctAnswer": [0, 2, 3]
       },
       {
@@ -832,7 +832,7 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
           "Service oriented architecture",
           "None of these"
         ],
-        "explanation": "Fog computing enablers are Virtualization, Service oriented architecture.",
+        "explanation": "Virtualization and SOA are enablers for fog computing.",
         "correctAnswer": [0, 2]
       },
       {
@@ -843,7 +843,7 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
           "Mobile devices connect to services delivered through an API architecture",
           "Facilitates slower development, delivery and management of mobile apps"
         ],
-        "explanation": "Mobile cloud computing features are: Facilitates the quick development, delivery and management of mobile apps. Uses fewer device resources because applications are cloud-supported. Mobile devices connect to services delivered through an API architecture. Improves reliability with information backed up and stored in the cloud.",
+        "explanation": "MCC improves reliability and supports efficient resource usage and fast delivery.",
         "correctAnswer": [0, 2]
       },
       {
@@ -854,31 +854,32 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
           "Implementation of Spatial Databases",
           "None of the above"
         ],
-        "explanation": "Challenges of Geospatial Cloud are as follows: 1. Implementation of Spatial Databases 2. Scaling of Spatial Databases 3. Policy management among the tenants",
+        "explanation": "All are valid challenges in Geospatial Cloud.",
         "correctAnswer": [0, 1, 2]
       },
       {
-        "question": "Consider following statements about Geospatial Cloud:",
+        "question": "Consider following statements: Statement 1: Geospatial Cloud helps to integrate data from heterogeneous back-end data service. Statement 2: Data services can be inside and/or outside of the cloud environment in Geospatial Cloud.",
         "options": [
           "Statement 1 is Correct, but Statement 2 is Incorrect.",
           "Statement 2 is Correct, but Statement 1 is Incorrect.",
           "Both statements are Correct.",
-          "Both statements are Incorrect"
+          "Both statements are Incorrect."
         ],
-        "explanation": "Both statements are correct regarding Geospatial Cloud concept.",
+        "explanation": "Both statements about Geospatial Cloud are correct.",
         "correctAnswer": [2]
       }
-    ],
+    ]
+,    
     week8:[
       {
-        "question": "Which of the following statements is/are true about Docker?",
+        "question": "Which of the following statements is/are true about Docker? Statement 1: Docker hub is used for building docker images and creating docker containers. Statement 2: Docker compose is a registry used to host various docker images.",
         "options": [
           "Statement 1 is correct but Statement 2 is incorrect",
           "Statement 2 is correct but Statement 1 is incorrect",
           "Both the statements are correct",
           "Both the statements are incorrect."
         ],
-        "explanation": "Docker Engine is used for building docker images and creating docker containers. Docker Hub is a registry used to host various docker images.",
+        "explanation": "Docker Engine builds containers. Docker Hub is the registry, not Docker Compose.",
         "correctAnswer": [3]
       },
       {
@@ -887,18 +888,18 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
           "True",
           "False"
         ],
-        "explanation": "Containers take up less space than VMs and start almost instantly.",
+        "explanation": "Containers take up less space than VMs and start faster.",
         "correctAnswer": [1]
       },
       {
-        "question": "Which of the following statements is/are correct? Choose the most appropriate option.",
+        "question": "Which of the following statements is/are correct? Statement 1: An image is a light weight, stand alone, executable package that includes everything to run a piece of software. Statement 2: Container is a run time instance of an image.",
         "options": [
           "Statement 1 is correct but Statement 2 is incorrect",
           "Statement 2 is correct but Statement 1 is incorrect",
           "Both the statements are correct",
           "Both the statements are incorrect."
         ],
-        "explanation": "Both the statements are correct.",
+        "explanation": "Both statements define Docker architecture correctly.",
         "correctAnswer": [2]
       },
       {
@@ -909,7 +910,7 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
           "IaaS",
           "BaaS"
         ],
-        "explanation": "This comes under a new service named Network and Data processing as a service i.e. IaaS.",
+        "explanation": "Providing networking and processing capabilities is best associated with IaaS.",
         "correctAnswer": [2]
       },
       {
@@ -918,7 +919,7 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
           "True",
           "False"
         ],
-        "explanation": "Each container can run as an isolated process in user space.",
+        "explanation": "Containers run as isolated processes in user space.",
         "correctAnswer": [1]
       },
       {
@@ -927,7 +928,7 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
           "True",
           "False"
         ],
-        "explanation": "Containers are an abstraction at the app layer that packages code and dependencies together. Multiple containers can run on the same machine and share the OS kernel with other containers, each running as isolated processes in user space.",
+        "explanation": "Containers share the OS kernel but operate in isolation.",
         "correctAnswer": [0]
       },
       {
@@ -936,7 +937,7 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
           "True",
           "False"
         ],
-        "explanation": "For sensor resources that do not have direct connection to the cloud, sensor network proxy provides the connection.",
+        "explanation": "Sensor network proxy helps connect sensors to cloud when direct access isn't available.",
         "correctAnswer": [0]
       },
       {
@@ -947,7 +948,7 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
           "Network and Cloud",
           "Learning Module"
         ],
-        "explanation": "An IoT platform has basically three building blocks: Things, Gateway, Network and Cloud.",
+        "explanation": "IoT platforms typically include Things, Gateway, and Cloud Network.",
         "correctAnswer": [0, 1, 2]
       },
       {
@@ -958,7 +959,7 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
           "Overall Power * Power Delivered",
           "None of these"
         ],
-        "explanation": "In the context of Green Cloud Computing, the Power Usage Effectiveness is defined as Overall Power / Power Delivered.",
+        "explanation": "PUE = Overall Power / Power Delivered.",
         "correctAnswer": [1]
       },
       {
@@ -967,10 +968,11 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
           "True",
           "False"
         ],
-        "explanation": "A green broker can perform scheduling of applications to reduce energy consumption.",
+        "explanation": "Green brokers help optimize energy consumption through scheduling.",
         "correctAnswer": [0]
       }
-    ],
+    ]
+,    
     week9:[
       {
         "question": "Which of the following statements is/are false?",
