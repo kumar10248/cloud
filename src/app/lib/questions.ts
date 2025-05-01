@@ -330,7 +330,7 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
         "correctAnswer": [2]
       }],
       
-       Week3:[
+       week3:[
       {
         "question": "Which of the following is/are NOT SLA requirement(s) of PaaS cloud delivery model?",
         "options": [
@@ -437,7 +437,7 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
         "explanation": "In OpenStack block storage, the stored objects persist until specifically deleted by the user. In OpenStack ephemeral storage, the stored objects are accessible from within the VM as local file system.",
         "correctAnswer": [2]
       }],
-      Week4:[
+      week4:[
       {
         "question": "In Google Cloud Platform (GCP), Cloud Datastore provides flexible object storage with global edge caching.",
         "options": [
@@ -545,7 +545,7 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
         "correctAnswer": [1]
       }],
     
-       Week5:[
+       week5:[
       {
         "question": "Multiple KPIs are aggregated to SLA.",
         "options": [
@@ -651,7 +651,7 @@ export function getAllQuestions(mode: PracticeMode): Question[] {
         "correctAnswer": [1, 2]
       }],
       
-      Week6:[
+      week6:[
       {
         "question": "Modification threat on cloud security is an example of:",
         "options": [
